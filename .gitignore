@@ -1,0 +1,11 @@
+.idea
+.vscode
+.DS_Store
+.env
+package-lock.json
+node_modules
+cache
+*.composerLog
+*.tgz
+dist
+temp

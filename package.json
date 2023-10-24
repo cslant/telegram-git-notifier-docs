@@ -1,0 +1,36 @@
+{
+  "name": "telegram-git-notifier-docs",
+  "version": "1.0.0",
+  "description": "Telegram Git Notifier Documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbiltech/telegram-git-notifier-docs.git"
+  },
+  "keywords": [
+    "telegram",
+    "github",
+    "gitlab",
+    "notifier",
+    "documentation",
+    "docs",
+    "telegram-git-notifier",
+    "telegram-git-notifier-docs"
+  ],
+  "author": "Lbiltech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lbiltech/telegram-git-notifier-docs/issues"
+  },
+  "dependencies": {
+    "typescript": "^5.2.2",
+    "vitepress": "^1.0.0-rc.24",
+    "vue": "^3.3.6"
+  }
+}

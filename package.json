@@ -29,6 +29,8 @@
     "url": "https://github.com/lbiltech/telegram-git-notifier-docs/issues"
   },
   "dependencies": {
+    "@docsearch/css": "^3.5.2",
+    "@docsearch/js": "^3.5.2",
     "typescript": "^5.2.2",
     "vitepress": "^1.0.0-rc.24",
     "vue": "^3.3.6"

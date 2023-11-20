@@ -14,7 +14,7 @@ hero:
       link: /guide/index
     - theme: alt
       text: View on GitHub
-      link: https://github.com/lbiltech/telegram-git-notifier
+      link: https://github.com/cslant/telegram-git-notifier
   image:
     src: https://user-images.githubusercontent.com/35853002/277427295-193e523b-4654-4f61-aaf4-5b6d106b67e3.png
     alt: Telegram Git Notifier

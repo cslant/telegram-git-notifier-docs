@@ -1,30 +1,51 @@
-import {DefaultTheme} from 'vitepress'
+import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
-export function sidebarTelegramGitNotifier(): DefaultTheme.SidebarItem[] {
-    return [
+const TelegramGitNotifierSidebar: SidebarsConfig = {
+  telegramGitNotifierSidebar: [
+    'introduction',
+    'index',
+    {
+      type: 'category',
+      label: 'Installation',
+      items: [
+        'installation/requirements',
+        'installation/installation',
+        'installation/configuration',
+      ],
+      collapsed: false,
+    },
+    {
+      type: 'category',
+      label: 'Support',
+      items: [
+        'support/issues',
+        'support/feature-requests',
+      ],
+      collapsed: false,
+    },
+    {
+      type: 'category',
+      label: 'GitHub Source',
+      collapsed: false,
+      items: [
         {
-            text: '👋 Introduction',
-            collapsed: false,
-            items: [
-                {text: 'What is Telegram Git Notifier?', link: 'introduction'},
-            ]
+          type: 'link',
+          label: 'Core',
+          href: 'https://github.com/cslant/telegram-git-notifier',
         },
         {
-            text: 'Installation',
-            collapsed: false,
-            items: [
-                {text: 'Requirements', link: 'requirements'},
-                {text: 'Installation', link: 'installation'},
-                {text: 'Configuration', link: 'configuration'},
-            ]
+          type: 'link',
+          label: 'Laravel Package',
+          href: 'https://github.com/cslant/laravel-telegram-git-notifier',
         },
         {
-            text: 'Support',
-            collapsed: false,
-            items: [
-                {text: 'Issues', link: 'support-issues'},
-                {text: 'Feature Requests', link: 'feature-requests'},
-            ]
+          type: 'link',
+          label: 'PHP Application',
+          href: 'https://github.com/cslant/telegram-git-notifier-app',
         }
-    ]
-}
+      ],
+    },
+  ],
+};
+
+export default TelegramGitNotifierSidebar;

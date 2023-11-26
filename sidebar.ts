@@ -3,14 +3,21 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const TelegramGitNotifierSidebar: SidebarsConfig = {
   telegramGitNotifierSidebar: [
     'introduction',
-    'index',
     {
       type: 'category',
-      label: 'Installation',
+      label: 'Prologue',
       items: [
-        'installation/requirements',
-        'installation/installation',
-        'installation/configuration',
+        'prologue/releases',
+      ],
+      collapsed: false,
+    },
+    {
+      type: 'category',
+      label: 'Getting Started',
+      items: [
+        'getting-started/requirements',
+        'getting-started/installation',
+        'getting-started/configuration',
       ],
       collapsed: false,
     },

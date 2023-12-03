@@ -1,6 +1,4 @@
-import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
-
-const TelegramGitNotifierSidebar: SidebarsConfig = {
+module.exports = {
   telegramGitNotifierSidebar: [
     'introduction',
     {
@@ -18,6 +16,14 @@ const TelegramGitNotifierSidebar: SidebarsConfig = {
         'getting-started/requirements',
         'getting-started/installation',
         'getting-started/configuration',
+      ],
+      collapsed: false,
+    },
+    {
+      type: 'category',
+      label: 'Usage',
+      items: [
+        'usage/index',
       ],
       collapsed: false,
     },
@@ -54,5 +60,3 @@ const TelegramGitNotifierSidebar: SidebarsConfig = {
     },
   ],
 };
-
-export default TelegramGitNotifierSidebar;

@@ -23,7 +23,7 @@ module.exports = {
       type: 'category',
       label: 'Usage',
       items: [
-        'usage/index',
+        'usage/set_menu',
       ],
       collapsed: false,
     },

@@ -1,6 +1,6 @@
 # 🛠 Configuration
 
-## Create a New Bot
+## Create a New Bot and Get the Token
 
 To create a new bot, you need to talk to [BotFather](https://core.telegram.org/bots#6-botfather) and follow a few simple steps.
 
@@ -29,11 +29,11 @@ TELEGRAM_BOT_CHAT_ID=123456789
 You need to set the URL so that the webhook from GitHub or GitLab sends a request when an event occurs.
 
 ```dotenv
-TGN_APP_URL=http://localhost/telegram-git-notifier
+TGN_APP_URL=http://localhost:8000/telegram-git-notifier
 ```
 
 > **_Note:_**
-> - `http://localhost` is only used for testing purposes. You need to use a real domain name or IP address.
+> - `http://localhost:8000` is only used for testing purposes. You need to use a real domain name or IP address.
 > - `telegram-git-notifier` is the default route name. 
 >   - You can change it in the `config/tg-notifier.php` file with the `defaults.route_prefix` key.
 >   - Or you can change it in the `.env` file with the `TGN_DEFAULT_ROUTE_PREFIX` key.
@@ -50,10 +50,10 @@ You need to set the webhook to `TGN_APP_URL` so that the webhook from GitHub or 
 
 Go to the **`TGN_APP_URL`/webhook/set** route to set the webhook.
 
-Example: (Access via your browser)
+**_Example:_** (Access via your browser)
 
 ```url
-http://localhost/telegram-git-notifier/webhook/set
+http://localhost:8000/telegram-git-notifier/webhook/set
 ```
 
 If you see the following message, it means that the webhook has been sent successfully.
@@ -87,6 +87,6 @@ So, the .env file will require to have the following contents:
 ```dotenv
 TELEGRAM_BOT_TOKEN=123456789:ABCDEFGHIJKLMNOPQRSTUVWXYZ
 TELEGRAM_BOT_CHAT_ID=123456789
-TGN_APP_URL=http://localhost/telegram-git-notifier
+TGN_APP_URL=http://localhost:8000/telegram-git-notifier
 TELEGRAM_NOTIFY_CHAT_IDS="-978339113;-1001933979183:2,13;6872320129"
 ```

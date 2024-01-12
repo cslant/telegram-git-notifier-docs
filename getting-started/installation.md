@@ -124,10 +124,12 @@ So to ensure the above error does not occur, you need to change the owner of the
 You can do it with:
 
 ```bash
-sudo php artisan config-json:change-owner www-data www-data
+sudo php artisan config-json:change-owner {user} {group}
 ```
 
-> Note:
-> - `www-data` is the user and group of the web server, you can change it to your own user and group.
-> - The first `www-data` is the user, and the second `www-data` is the group. (You can also use only the first `www-data` to represent both the user and the group)
+Example: `sudo php artisan config-json:change-owner www-data www-data`
+
+> **Note:**
+> - `{user}`: The first `www-data` is the user
+> - `{group}`: The second `www-data` is the group. (You can also use only the first `www-data` to represent both the user and the group)
 > - Ensure run the command in the project root directory.

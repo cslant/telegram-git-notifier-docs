@@ -23,7 +23,10 @@ module.exports = {
       type: 'category',
       label: 'Usage',
       items: [
+        'usage/first_test',
         'usage/set_menu',
+        'usage/all_commands',
+        'usage/set_webhook',
       ],
       collapsed: false,
     },

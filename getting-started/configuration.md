@@ -82,7 +82,9 @@ TELEGRAM_NOTIFY_CHAT_IDS="-978339113;-1001933979183:2,13;6872320129"
 
 ---
 
-So, the .env file will require to have the following contents:
+## Conclusion
+
+**So, the .env file will require to have the following contents:**
 
 ```dotenv
 TELEGRAM_BOT_TOKEN=123456789:ABCDEFGHIJKLMNOPQRSTUVWXYZ

@@ -6,6 +6,7 @@ module.exports = {
       label: 'Prologue',
       items: [
         'prologue/releases',
+        'prologue/features',
       ],
       collapsed: false,
     },

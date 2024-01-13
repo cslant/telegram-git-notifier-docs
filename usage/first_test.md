@@ -1,4 +1,4 @@
-# First test the bot
+# 🤖 First test the bot
 
 ## Start message
 

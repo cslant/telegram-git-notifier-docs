@@ -1,4 +1,4 @@
-# All commands available
+# 🗒 All commands available
 
 Here is a list of all the commands available in the bot.
 

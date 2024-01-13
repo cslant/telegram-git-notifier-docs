@@ -1,4 +1,4 @@
-# Set menu for the bot
+# 📃 Set menu for the bot
 
 To increase ease of use and reduce the need to remember commands, you can use the `/set_menu` command to set the menu for the bot.
 

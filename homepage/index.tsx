@@ -1,5 +1,4 @@
 import Link from "@docusaurus/Link";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import SvgBackground from "@site/repo/telegram-git-notifier-docs/images/telegram-git-notifier-background.svg";
 import Heading from "@theme/Heading";
 import Layout from "@theme/Layout";
@@ -18,8 +17,7 @@ const HeaderData = {
 };
 
 function HomepageHeader() {
-  const { Svg, title, description, startButtonLink, startButtonLabel } =
-    HeaderData;
+  const {Svg, title, description, startButtonLink, startButtonLabel} = HeaderData;
 
   return (
     <header className="main_header">
@@ -40,7 +38,7 @@ function HomepageHeader() {
             </div>
           </div>
           <div className={clsx("col col--7")}>
-            <Svg />
+            <Svg/>
           </div>
         </div>
       </div>
@@ -49,14 +47,15 @@ function HomepageHeader() {
 }
 
 export default function TelegramGitNotifierHome(): JSX.Element {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout title="Home Page" description="Telegram Git Notifier Documentation">
-      <HomepageHeader />
+      <HomepageHeader/>
       <main>
         <section className="home-page__features">
           <div className="container">
-            <div className="row home-page__container"></div>
+            <div className="row home-page__container">
+              <Feature/>
+            </div>
           </div>
         </section>
       </main>

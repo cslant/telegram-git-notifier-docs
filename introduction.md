@@ -4,6 +4,8 @@ With this package, you can create a Telegram bot to **receive notifications from
 
 Also, you can customize the messages and buttons to manage the notifications from Telegram.
 
+![github_notifications](images/telegram-git-notifier-background.svg)
+
 ## 📝 Information
 
 - Send notifications of your GitHub/GitLab repositories to Telegram Bots, Groups, Super Groups (Multiple Topics), and Channels.

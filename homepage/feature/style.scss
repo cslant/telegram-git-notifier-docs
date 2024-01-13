@@ -1,11 +1,18 @@
 .feature {
   &__container {
-    padding: 10px;
+    margin-top: 10px;
     border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
     transition: box-shadow 500ms;
+    padding: 24px 12px;
+  }
+
+  @media screen and (max-width: 997px) {
+    &__container {
+    }
   }
 }
+
 [data-theme="dark"] {
   .feature {
     &__container {

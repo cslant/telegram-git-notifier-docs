@@ -34,7 +34,7 @@ The package supports multiple languages. You can easily add a new language or ed
 
 ## Event Management
 
-You can manage specific events that you want to receive notifications for, allowing you to focus on what's most important for your projects.
+You can manage specific events that you want to receive notifications. Tailor your notifications to only receive alerts that matter most to you and your team. This feature ensures that you maintain focus on high-priority updates without being overwhelmed by less relevant activity.
 
 - Support for multiple platforms: **GitHub** and **GitLab**.
 - Manage event notifications separately between platforms.

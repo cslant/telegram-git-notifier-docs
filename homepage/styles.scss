@@ -8,6 +8,11 @@
   &__container {
     justify-content: center;
     gap: 30px;
+
+    @media screen and (max-width: 900px) {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
   }
 
   &__features {

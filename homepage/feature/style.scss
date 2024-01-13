@@ -6,17 +6,12 @@
     transition: box-shadow 500ms;
     padding: 24px 12px;
   }
-
-  @media screen and (max-width: 997px) {
-    &__container {
-    }
-  }
 }
 
 [data-theme="dark"] {
   .feature {
     &__container {
-      box-shadow: rgba(240, 237, 237, 0.24) 0px 3px 8px;
+      box-shadow: rgba(240, 237, 237, 0.24) 0 3px 8px;
     }
   }
 }

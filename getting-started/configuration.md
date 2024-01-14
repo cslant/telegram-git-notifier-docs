@@ -24,23 +24,36 @@ To get your chat ID, you need to talk to [IDBot](https://telegram.me/myidbot) an
 TELEGRAM_BOT_CHAT_ID=123456789
 ```
 
-## Set the URL for Webhook Requests
+## Set the tool URL for Webhook Requests
 
 You need to set the URL so that the webhook from GitHub or GitLab sends a request when an event occurs.
 
+By default, Laravel already has the **APP_URL** variable. **If you have updated this variable, it is not necessary to update the TGN_APP_URL variable anymore**. 
+
+But if for some reason the **APP_URL** variable can't match the actual address of the website, you need to add actual address to the **TGN_APP_URL** variable.
+
 ```dotenv
-TGN_APP_URL=http://localhost:8000/telegram-git-notifier
+TGN_APP_URL=http://localhost:8000
 ```
 
 > **_Note:_**
 > - `http://localhost:8000` is only used for testing purposes. You need to use a real domain name or IP address.
-> - `telegram-git-notifier` is the default route name. 
+
+---
+
+So now, the telegram-git-notifier tool will be available at the following address:
+
+```url
+http://localhost:8000/telegram-git-notifier
+```
+
+> - `telegram-git-notifier` is the default route prefix of the tool. 
 >   - You can change it in the `config/tg-notifier.php` file with the `defaults.route_prefix` key.
 >   - Or you can change it in the `.env` file with the `TGN_DEFAULT_ROUTE_PREFIX` key.
 
 ## Set the webhook
 
-You need to set the webhook to `TGN_APP_URL` so that the webhook from GitHub or GitLab sends a request when an event occurs.
+You need to set the webhook to `tool URL` so that the webhook from GitHub or GitLab sends a request when an event occurs.
 
 [//]: # (```bash)
 
@@ -48,7 +61,7 @@ You need to set the webhook to `TGN_APP_URL` so that the webhook from GitHub or 
 
 [//]: # (```)
 
-Go to the **`TGN_APP_URL`/webhook/set** route to set the webhook.
+Go to the **`tool URL`/webhook/set** route to set the webhook.
 
 **_Example:_** (Access via your browser)
 
@@ -89,6 +102,6 @@ TELEGRAM_NOTIFY_CHAT_IDS="-978339113;-1001933979183:2,13;6872320129"
 ```dotenv
 TELEGRAM_BOT_TOKEN=123456789:ABCDEFGHIJKLMNOPQRSTUVWXYZ
 TELEGRAM_BOT_CHAT_ID=123456789
-TGN_APP_URL=http://localhost:8000/telegram-git-notifier
+TGN_APP_URL=http://localhost:8000
 TELEGRAM_NOTIFY_CHAT_IDS="-978339113;-1001933979183:2,13;6872320129"
 ```

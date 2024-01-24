@@ -3,6 +3,10 @@ module.exports = {
     'introduction',
     {
       type: 'category',
+      link: {
+        type: 'generated-index',
+        description: 'Let\'s get started create your first bot to receive git notifications from your repositories on Telegram.',
+      },
       label: 'Prologue',
       items: [
         'prologue/releases',
@@ -12,6 +16,12 @@ module.exports = {
     },
     {
       type: 'category',
+      link: {
+        type: 'generated-index',
+        description: 'Let\'s get started create your first bot to receive git notifications from your repositories on Telegram. ' +
+          'Please make sure you have all the requirements before you start. ' +
+          'You can also find the installation guide and the configuration guide here.',
+      },
       label: 'Getting Started',
       items: [
         'getting-started/requirements',
@@ -22,6 +32,10 @@ module.exports = {
     },
     {
       type: 'category',
+      link: {
+        type: 'generated-index',
+        description: 'This section will guide you through the process of creating your first bot and setting up the webhook.',
+      },
       label: 'Usage',
       items: [
         'usage/first_test',
@@ -33,6 +47,10 @@ module.exports = {
     },
     {
       type: 'category',
+      link: {
+        type: 'generated-index',
+        description: 'Please check this section if you have any problems with the bot or you want to request a new feature.',
+      },
       label: 'Support',
       items: [
         'support/issues',
@@ -42,6 +60,10 @@ module.exports = {
     },
     {
       type: 'category',
+      link: {
+        type: 'generated-index',
+        description: 'Please check this section if you want to contribute to the project.',
+      },
       label: 'GitHub Source',
       collapsed: false,
       items: [

@@ -1,5 +1,7 @@
 # 🤖 First test the bot
 
+Some commands are available to test the bot.
+
 ## Start message
 
 Now you can send a message to your bot, and you will receive a welcome message from the bot.

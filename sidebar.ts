@@ -5,7 +5,7 @@ module.exports = {
       type: 'category',
       link: {
         type: 'generated-index',
-        description: 'Let\'s get started create your first bot to receive git notifications from your repositories on Telegram.',
+        description: 'This section will give you a brief overview of the project and its features.',
       },
       label: 'Prologue',
       items: [
@@ -70,16 +70,19 @@ module.exports = {
         {
           type: 'link',
           label: 'Core',
+          description: 'The core of the project.',
           href: 'https://github.com/cslant/telegram-git-notifier',
         },
         {
           type: 'link',
           label: 'Laravel Package',
+          description: 'This is the recommended way to use the bot.',
           href: 'https://github.com/cslant/laravel-telegram-git-notifier',
         },
         {
           type: 'link',
           label: 'PHP Application',
+          description: 'You can use this if you don\'t want to use Laravel.',
           href: 'https://github.com/cslant/telegram-git-notifier-app',
         }
       ],

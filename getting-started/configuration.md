@@ -1,5 +1,7 @@
 # 🛠 Configuration
 
+Once installed, please follow the instructions below to configure the package properly.
+
 ## Create a New Bot and Get the Token
 
 To create a new bot, you need to talk to [BotFather](https://core.telegram.org/bots#6-botfather) and follow a few simple steps.

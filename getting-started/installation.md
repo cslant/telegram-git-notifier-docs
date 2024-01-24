@@ -1,5 +1,7 @@
 # 🔧 Installation
 
+Please read carefully the instructions below and follow them step by step.
+
 ## Install the package
 
 You can **install the package via composer**:
@@ -104,7 +106,7 @@ return [
 ];
 ```
 
-## Publish the config jsons
+## Publish the config jsons (required)
 
 > **_This is a required step. Please don't skip it._**
 

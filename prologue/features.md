@@ -1,5 +1,7 @@
 # 🎉 Features
 
+You can see the list of features below.
+
 ## GitHub/GitLab Notifications to Telegram
 
 The package allows you to configure a Telegram bot to receive notifications from various GitHub/GitLab events, including events like **commits, pull requests, issues, releases, and many more.**

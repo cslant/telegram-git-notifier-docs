@@ -55,13 +55,15 @@ http://localhost:8000/telegram-git-notifier
 
 ## Set the webhook
 
-You need to set the webhook to `tool URL` so that the webhook from GitHub or GitLab sends a request when an event occurs.
+You need to set the webhook to `tool URL` so that the webhook from GitHub or GitLab sends a request when an event occurs. You can choose one of the two following methods.
 
-[//]: # (```bash)
+### Method 1: Using with the command in console
 
-[//]: # (php artisan tg-notifier:webhook:set)
+```bash
+php artisan tg-notifier:webhook:set
+```
 
-[//]: # (```)
+### Method 2: Using with the webhook route
 
 Go to the **`tool URL`/webhook/set** route to set the webhook.
 

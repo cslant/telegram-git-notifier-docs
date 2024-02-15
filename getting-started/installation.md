@@ -33,7 +33,7 @@ php artisan vendor:publish --provider="CSlant\LaravelTelegramGitNotifier\Provide
 
 These are the contents of the default config file that will be published:
 
-```php
+```php title="config/telegram-git-notifier.php"
 $configFileStorageFolder = storage_path(
     env('TGN_CONFIG_FILE_STORAGE_FOLDER', '/app/vendor/tg-notifier/jsons')
 );

@@ -11,6 +11,19 @@ module.exports = {
       items: [
         'prologue/releases',
         'prologue/features',
+        {
+          type: 'category',
+          link: {
+            type: 'generated-index',
+            description: 'Shows all the available Github/Gitlab events that the bot can handle.',
+          },
+          label: 'Event Availability',
+          items: [
+            'prologue/event-availability/github',
+            'prologue/event-availability/gitlab',
+          ],
+          collapsed: false,
+        },
       ],
       collapsed: false,
     },

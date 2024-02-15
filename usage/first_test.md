@@ -1,3 +1,6 @@
+import botMenuImg from '@site/repo/telegram-git-notifier-docs/images/menu.png';
+import startImg from '@site/repo/telegram-git-notifier-docs/images/start_command.png';
+
 # 🤖 First test the bot
 
 Some commands are available to test the bot.
@@ -10,7 +13,9 @@ Now you can send a message to your bot, and you will receive a welcome message f
 /start
 ```
 
-[//]: # (![start]&#40;../images/start.png&#41;)
+<p align="center">
+  <img src={startImg} alt="Telegram git notify bot menu" />
+</p>
 
 ## Menu message
 
@@ -20,4 +25,6 @@ To increase ease of use and reduce the need to remember commands, you can use th
 /menu
 ```
 
-![menu](../images/menu.png)
+<p align="center">
+  <img src={botMenuImg} alt="Telegram git notify bot menu" />
+</p>

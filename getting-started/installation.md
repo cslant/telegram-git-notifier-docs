@@ -1,3 +1,7 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import styles from '@site/repo/telegram-git-notifier-docs/styles/commands.module.scss';
+
 # 🔧 Installation
 
 Please read carefully the instructions below and follow them step by step.
@@ -14,9 +18,14 @@ The package will automatically register its service provider.
 
 ## Publish the config file (optional)
 
-> This is an optional step. If you don't publish the config file, the package will use the default configuration.
+:::info[optional]
 
-The config file contains the default configuration for the package. If you want to change the default configuration, you can publish the config file with:
+This is an optional step. If you don't publish the config file, the package will use the default configuration.
+
+:::
+
+The config file contains the default configuration for the package. If you want to change the default configuration, you
+can publish the config file with:
 
 ```bash
 php artisan vendor:publish --provider="CSlant\LaravelTelegramGitNotifier\Providers\TelegramGitNotifierServiceProvider" --tag="config"
@@ -108,21 +117,33 @@ return [
 
 ## Publish the config jsons (required)
 
-> **_This is a required step. Please don't skip it._**
+:::danger[required]
+
+**_This is a required step. Please don't skip it._**
+
+:::
 
 There are important JSON files in the package. They will take care of checking event conditions and your configurations.
 
 You need to publish them with:
 
-```bash
+```shell
 php artisan vendor:publish --provider="CSlant\LaravelTelegramGitNotifier\Providers\TelegramGitNotifierServiceProvider" --tag="config_jsons"
 ```
 
 ## Fix permissions for the config jsons
 
-If you are using Linux, you may get an error of not being able to access or change the configuration (**content in JSON config files**).
+:::info[for windows]
 
-So to ensure the above error does not occur, you need to change the owner of the configuration files to **the web server user and group** (e.g. www-data). 
+If you are using Windows as a development environment, you don't need to do this step.
+
+:::
+
+If you are using Linux, you may get an error of not being able to access or change the configuration (**content in JSON
+config files**).
+
+So to ensure the above error does not occur, you need to change the owner of the configuration files to **the web server
+user and group** (e.g. www-data).
 
 You can do it with:
 
@@ -130,9 +151,48 @@ You can do it with:
 sudo php artisan config-json:change-owner {user} {group}
 ```
 
-Example: `sudo php artisan config-json:change-owner www-data www-data`
+:::tip[info]
 
-> **Note:**
-> - `{user}`: The first `www-data` is the user
-> - `{group}`: The second `www-data` is the group. (You can also use only the first `www-data` to represent both the user and the group)
-> - Ensure run the command in the project root directory.
+- `{user}`: The first `www-data` is the user
+- `{group}`: The second `www-data` is the group. (You can also use only the first `www-data` to represent both the user
+  and the group)
+- Ensure run the command in the project root directory.
+
+:::
+
+:::info[example]
+
+<Tabs className="unique-tabs" queryString="config-json-change-owner" defaultValue="no params">
+  <TabItem value="no params" label="No params" attributes={{className: styles.green}}>
+    If you don't pass any parameters, the command will detect the web server user and group and change the owner of the configuration files to them.
+
+    ```bash
+    sudo php artisan config-json:change-owner
+    ```
+
+  </TabItem>
+
+<TabItem value="full params" label="Full params" attributes={{className: styles.red}}>
+If you want to change the owner of the configuration files to a specific user and group, you can pass the user and group
+as parameters.
+
+    ```bash
+    sudo php artisan config-json:change-owner www-data www-data
+    ```
+
+    On this example, the user and group are both `www-data`.
+
+  </TabItem>
+
+<TabItem value="orange" label="Mixed" attributes={{className: styles.orange}}>
+You can also use only the first `www-data` to represent both the user and the group.
+
+    ```bash
+    sudo php artisan config-json:change-owner www-data
+    ```
+
+  </TabItem>
+</Tabs>
+
+:::
+

@@ -10,15 +10,15 @@ for the bot.
 /set_menu
 ```
 
-:::tip[Important]
+<p align="center">
+  <img src={setMenuCmdImg} alt="Telegram git notify bot menu" />
+</p>
+
+:::warning[Important]
 
 After run above command, you must restart the telegram application to see the changes.
 
 :::
-
-<p align="center">
-  <img src={setMenuCmdImg} alt="Telegram git notify bot menu" />
-</p>
 
 Now you can use the menu to manage the bot.
 

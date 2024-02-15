@@ -32,6 +32,8 @@ Add webhook on your GitLab repository to receive notifications, please follow th
 
 ---
 
-> Note: You can set up this webhook for different repositories. Please similarly set up the webhook for each repository.
+:::tip[Note]
+You can set up this webhook for different repositories. Please similarly set up the webhook for each repository.
+:::
 
 Then every time one of those repositories appears an event, this telegram bot will immediately send you a notification.

@@ -20,3 +20,12 @@ All events and actions listed below are taken from the [GitHub Webhooks](https:/
 |                                                                                                                     | :white_check_mark: [Edited](https://docs.github.com/en/webhooks/webhook-events-and-payloads?actionType=edited#issues)               | Occurs when an issue is edited.                                | 
 |                                                                                                                     | :white_check_mark: [Deleted](https://docs.github.com/en/webhooks/webhook-events-and-payloads?actionType=deleted#issues)             | Occurs when an issue is deleted.                               |
 | ...                                                                                                                 | ...                                                                                                                                 | ...                                                            |
+
+:::tip[Status Legend]
+
+- :white_check_mark: This event is available to be notified.
+- :white_square_button: This event doesn't have blade view files to notify yet.
+
+:::
+
+The tool can notify you about the events and actions listed above. If you want to receive notifications about other events, please open an issue on the [GitHub repository](https://github.com/cslant/laravel-telegram-git-notifier).

@@ -170,6 +170,8 @@ sudo php artisan config-json:change-owner {user} {group}
     sudo php artisan config-json:change-owner
     ```
 
+    This is the fastest way to change the owner of the configuration files without having to know the user and group.
+
   </TabItem>
 
 <TabItem value="full params" label="Full params" attributes={{className: styles.red}}>

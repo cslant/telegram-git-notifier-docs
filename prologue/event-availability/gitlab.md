@@ -44,3 +44,12 @@ All events and actions listed below are taken from the [GitLab Webhooks](https:/
 |                                                                                                                                        | :white_check_mark: Delete     | Occurs when a release is deleted.                             |
 | :white_square_button: **[Emojis](https://docs.gitlab.com/ee/user/project/integrations/webhook_events.html#emoji-events)**              |                               | Occurs when an emoji is created, updated, deleted,...etc.     |
 
+:::tip[Status Legend]
+
+- :arrow_heading_down: This event has actions that can be notified.
+- :white_check_mark: This event is available to be notified.
+- :white_square_button: This event doesn't have blade view files to notify yet.
+
+:::
+
+The tool can notify you about the events and actions listed above. If you want to receive notifications about other events, please open an issue on the [GitHub repository](https://github.com/cslant/laravel-telegram-git-notifier).

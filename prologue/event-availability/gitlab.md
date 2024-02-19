@@ -46,6 +46,7 @@ All events and actions listed below are taken from the [GitLab Webhooks](https:/
 
 :::tip[Status Legend]
 
+- :arrow_heading_down: This event has actions that can be notified.
 - :white_check_mark: This event is available to be notified.
 - :white_square_button: This event doesn't have blade view files to notify yet.
 

@@ -16,6 +16,22 @@ composer require cslant/laravel-telegram-git-notifier
 
 The package will automatically register its service provider.
 
+## Publish the config jsons (required)
+
+:::danger[required]
+
+**_This is a required step. Please don't skip it._**
+
+:::
+
+There are important **JSON files** in the package. They will take care of checking event conditions and your configurations.
+
+You need to publish them with:
+
+```shell
+php artisan vendor:publish --provider="CSlant\LaravelTelegramGitNotifier\Providers\TelegramGitNotifierServiceProvider" --tag="config_jsons"
+```
+
 ## Publish the config file (optional)
 
 :::info[optional]
@@ -113,22 +129,6 @@ return [
         ],
     ],
 ];
-```
-
-## Publish the config jsons (required)
-
-:::danger[required]
-
-**_This is a required step. Please don't skip it._**
-
-:::
-
-There are important JSON files in the package. They will take care of checking event conditions and your configurations.
-
-You need to publish them with:
-
-```shell
-php artisan vendor:publish --provider="CSlant\LaravelTelegramGitNotifier\Providers\TelegramGitNotifierServiceProvider" --tag="config_jsons"
 ```
 
 ## Fix permissions for the config jsons

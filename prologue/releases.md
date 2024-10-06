@@ -1,3 +1,8 @@
+---
+title: Releases of Telegram Git Notifier
+description: Release notes and upgrade instructions for Telegram Git Notifier packages.
+---
+
 # 🚀 Release Notes
 
 Check release notes and upgrade instructions for the following packages:

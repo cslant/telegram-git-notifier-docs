@@ -1,3 +1,8 @@
+---
+title: Features of Telegram Git Notifier
+description: All features of Telegram Git Notifier package for managing notifications from GitHub and GitLab.
+---
+
 # 🎉 Features
 
 You can see the list of features below.

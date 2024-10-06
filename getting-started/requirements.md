@@ -1,3 +1,8 @@
+---
+title: Requirements for running Telegram Git Notifier package
+description: Requirements for running Telegram Git Notifier package in your environment.
+---
+
 # 📋 Requirements
 
 Here are the requirements for running Telegram Git Notifier.

@@ -1,3 +1,8 @@
+---
+title: Configuration laravel telegram git notifier
+description: All configuration for laravel telegram git notifier package to get started with it.
+---
+
 # 🛠 Configuration
 
 Once installed, please follow the instructions below to configure the package properly.

@@ -1,6 +1,6 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import styles from '@site/repo/telegram-git-notifier-docs/styles/commands.module.scss';
+import styles from '@site/repos/telegram-git-notifier-docs/styles/commands.module.scss';
 
 # 🔧 Installation
 

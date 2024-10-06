@@ -1,5 +1,5 @@
-import setMenuCmdImg from '@site/repo/telegram-git-notifier-docs/images/set_menu.png';
-import setMenuImg from '@site/repo/telegram-git-notifier-docs/images/set_menu_2.png';
+import setMenuCmdImg from '@site/repos/telegram-git-notifier-docs/images/set_menu.png';
+import setMenuImg from '@site/repos/telegram-git-notifier-docs/images/set_menu_2.png';
 
 # 📃 Set menu for the bot
 

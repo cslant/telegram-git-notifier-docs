@@ -1,5 +1,5 @@
-import botMenuImg from '@site/repo/telegram-git-notifier-docs/images/menu.png';
-import startImg from '@site/repo/telegram-git-notifier-docs/images/start_command.png';
+import botMenuImg from '@site/repos/telegram-git-notifier-docs/images/menu.png';
+import startImg from '@site/repos/telegram-git-notifier-docs/images/start_command.png';
 
 # 🤖 First test the bot
 

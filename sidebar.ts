@@ -75,7 +75,7 @@ module.exports = {
       type: 'category',
       link: {
         type: 'generated-index',
-        description: 'Please check this section if you want to contribute to the project.',
+        description: 'Please check this section if you want to contribute to the Telegram Git Notifier project.',
       },
       label: 'GitHub Source',
       collapsed: false,

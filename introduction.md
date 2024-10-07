@@ -1,3 +1,10 @@
+---
+title: Introduction | Telegram Git Notifier
+description: Introduction to the Telegram Git Notifier package. Create a Telegram bot to receive notifications from GitHub or GitLab events. Customize the messages and buttons to manage the notifications from Telegram.
+keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'github', 'gitlab', 'notifications', 'receive notifications', 'telegram git notifier']
+tags: ['Notifier', 'Introduction', 'Telegram bot', 'GitHub', 'GitLab', 'Notifications']
+---
+
 # Introduction
 
 With this package, you can create a Telegram bot to **receive notifications from GitHub or GitLab events**.

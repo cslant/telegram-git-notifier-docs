@@ -1,3 +1,10 @@
+---
+title: First test the bot | Telegram Git Notifier
+description: Test the bot with the start and menu commands. Use the /start and /menu commands to test the bot.
+keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'test', 'start command', 'menu command', 'test bot']
+tags: ['telegram', 'git', 'notifier', 'telegram bot', 'first test', 'start command', 'menu command', 'test bot']
+---
+
 import botMenuImg from '@site/repos/telegram-git-notifier-docs/images/menu.png';
 import startImg from '@site/repos/telegram-git-notifier-docs/images/start_command.png';
 

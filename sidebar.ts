@@ -37,9 +37,21 @@ module.exports = {
       },
       label: 'Getting Started',
       items: [
-        'getting-started/requirements',
-        'getting-started/installation',
-        'getting-started/configuration',
+        {
+          type: 'doc',
+          id: 'getting-started/requirements',
+          label: '📋 Requirements',
+        },
+        {
+          type: 'doc',
+          id: 'getting-started/installation',
+          label: '🔧 Installation',
+        },
+        {
+          type: 'doc',
+          id: 'getting-started/configuration',
+          label: '🛠 Configuration',
+        },
       ],
       collapsed: false,
     },
@@ -51,10 +63,26 @@ module.exports = {
       },
       label: 'Usage',
       items: [
-        'usage/first_test',
-        'usage/set_menu',
-        'usage/all_commands',
-        'usage/set_webhook',
+        {
+          type: 'doc',
+          id: 'usage/first_test',
+          label: '🤖 First Test',
+        },
+        {
+          type: 'doc',
+          id: 'usage/set_menu',
+          label: '📃 Set Menu',
+        },
+        {
+          type: 'doc',
+          id: 'usage/all_commands',
+          label: '🗒 All commands available',
+        },
+        {
+          type: 'doc',
+          id: 'usage/set_webhook',
+          label: '📥 Set Webhook',
+        },
       ],
       collapsed: false,
     },

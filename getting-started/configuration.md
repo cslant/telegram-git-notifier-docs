@@ -1,5 +1,5 @@
 ---
-title: Configuration laravel telegram git notifier
+title: Configuration laravel telegram git notifier package
 description: All configuration for laravel telegram git notifier package to get started with it.
 ---
 

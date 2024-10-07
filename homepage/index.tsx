@@ -11,7 +11,8 @@ const HeaderData = {
   title: "Documentation For Telegram Git Notifier",
   Svg: SvgBackground,
   description:
-    "With this package, you can create a Telegram bot to receive notifications from GitHub or GitLab events.",
+    "With this package, you can create a Telegram bot to receive notifications from GitHub or GitLab events. You can use this package with Laravel or any PHP application.",
+  tags: ["telegram", "git", "notifier", "bot", "github", "gitlab"],
   startButtonLink: "/telegram-git-notifier/introduction",
   startButtonLabel: "Get Started",
 };

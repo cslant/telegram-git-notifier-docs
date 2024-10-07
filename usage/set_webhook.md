@@ -1,3 +1,10 @@
+---
+title: Add repository webhook Telegram Git Notifier
+description: Add webhook for your GitHub and GitLab repository to receive notifications. Add webhook for your GitHub and GitLab repository to receive notifications.
+keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'add webhook', 'add webhook for repository', 'add webhook for github', 'add webhook for gitlab', 'telegram git notifier usage']
+tags: ['Notifier', 'Add webhook', 'Add webhook for repository', 'Add webhook for GitHub', 'Add webhook for GitLab', 'Usage']
+---
+
 # 📥 Add repository webhook
 
 You will need to add the Webhook for your GitHub and GitLab repository to receive notifications.

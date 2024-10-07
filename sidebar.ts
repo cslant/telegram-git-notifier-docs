@@ -9,18 +9,39 @@ module.exports = {
       },
       label: 'Prologue',
       items: [
-        'prologue/releases',
-        'prologue/features',
+        {
+          type: 'doc',
+          id: 'prologue/releases',
+          label: '🚀 Release Notes',
+        },
+        // {
+        //   type: 'doc',
+        //   id: 'prologue/overview',
+        //   label: '📖 Overview',
+        // },
+        {
+          type: 'doc',
+          id: 'prologue/features',
+          label: '🎯 Features 🎉',
+        },
         {
           type: 'category',
           link: {
             type: 'generated-index',
-            description: 'Shows all the available Github/Gitlab events that the bot can handle.',
+            description: 'Shows all the available Github/Gitlab events that the bot can handle. You can also find the configuration guide here.',
           },
           label: 'Event Availability',
           items: [
-            'prologue/event-availability/github',
-            'prologue/event-availability/gitlab',
+            {
+              type: 'doc',
+              id: 'prologue/event-availability/github',
+              label: '🐙 GitHub Events',
+            },
+            {
+              type: 'doc',
+              id: 'prologue/event-availability/gitlab',
+              label: '🦊 GitLab Events',
+            },
           ],
           collapsed: false,
         },

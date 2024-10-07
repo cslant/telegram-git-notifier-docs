@@ -1,3 +1,10 @@
+---
+title: All commands available for the Telegram Git Notifier
+description: All commands available for the Telegram Git Notifier bot. Use the commands to manage notifications from GitHub and GitLab. Get the list of all commands available in the bot.
+keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'all commands', 'all commands available', 'all commands for bot']
+tags: ['Notifier', 'All commands', 'All commands available', 'Usage']
+---
+
 # 🗒 All commands available
 
 Here is a list of all the commands available in the bot.

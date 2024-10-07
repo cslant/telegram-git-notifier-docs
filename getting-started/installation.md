@@ -1,3 +1,10 @@
+---
+title: Installation | Laravel Telegram Git Notifier
+description: Installation instructions for laravel telegram git notifier package. Install the package via composer, publish the config jsons, publish the config file, fix permissions for the config jsons.
+keywords: ["laravel telegram git notifier", "installation", "install laravel telegram git notifier", 'get started', 'laravel telegram git notifier get started', 'composer', 'publish config', 'fix permissions']
+tags: ["Installation", "Get Started", "Composer", "Publish Config", "Fix Permissions"]
+---
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import styles from '@site/repos/telegram-git-notifier-docs/styles/commands.module.scss';

@@ -21,29 +21,28 @@ function HomepageHeader() {
   const {Svg, title, description, startButtonLink, startButtonLabel} = HeaderData;
 
   return (
-    <header className="main_header">
-      <div className="container">
+    <>
+      <header className="main_header">
+        <div className="container">
         <div className="row">
-          <div className="col col--5 left_header">
-            <Heading as="h1" className="hero__title main_title">
-              {title}
-            </Heading>
-            <p className="hero__subtitle">{description}</p>
-            <div className="buttons">
-              <Link
-                className="button button--info button--lg"
-                to={startButtonLink}
-              >
-                {startButtonLabel}
-              </Link>
+            <div className="col col--5 left_header">
+              <Heading as="h1" className="hero__title main_title">
+                {title}
+              </Heading>
+              <p className="hero__subtitle">{description}</p>
+              <div className="buttons">
+                <Link className="button button--info button--lg" to={startButtonLink}>
+                  {startButtonLabel}
+                </Link>
+              </div>
+            </div>
+            <div className={clsx("col col--7")}>
+              <Svg />
             </div>
           </div>
-          <div className={clsx("col col--7")}>
-            <Svg/>
-          </div>
         </div>
-      </div>
-    </header>
+      </header>
+    </>
   );
 }
 

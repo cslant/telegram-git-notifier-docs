@@ -1,5 +1,5 @@
 module.exports = {
-  telegramGitNotifierSidebar: [
+  TelegramGitNotifierPackageSidebar: [
     {
       type: 'doc',
       id: 'introduction',

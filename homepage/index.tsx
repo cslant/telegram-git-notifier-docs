@@ -6,6 +6,7 @@ import clsx from "clsx";
 
 import "./styles.scss";
 import Feature from "./feature";
+import Head from "@docusaurus/core/lib/client/exports/Head";
 
 const HeaderData = {
   title: "Documentation For Telegram Git Notifier",
@@ -22,12 +23,22 @@ function HomepageHeader() {
 
   return (
     <>
+      <Head>
+        <title>Homepage | Telegram Git Notifier | CSlant Documentation</title>
+        <link rel="canonical" href="https://docs.cslant.com/telegram-git-notifier" data-rh="true" />
+        <meta name="description"
+              content="Telegram Git Notifier is a package that allows you to create a Telegram bot to receive notifications from GitHub or GitLab events. You can use this package with Laravel or any PHP application."
+              data-rh="true" />
+        <meta name="keywords"
+              content="laravel telegram git notifier,telegram git notifier,telegram bot,gitlab,github,laravel,php,package,documentation"
+              data-rh="true" />
+      </Head>
       <header className="main_header">
         <div className="container">
-        <div className="row">
+          <div className="row">
             <div className="col col--5 left_header">
               <Heading as="h1" className="hero__title main_title">
-                {title}
+              {title}
               </Heading>
               <p className="hero__subtitle">{description}</p>
               <div className="buttons">

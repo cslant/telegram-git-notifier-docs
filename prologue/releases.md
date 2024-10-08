@@ -2,7 +2,7 @@
 title: Releases of Telegram Git Notifier
 description: Release notes and upgrade instructions for Telegram Git Notifier packages. Check the release notes and upgrade instructions for the Telegram Git Notifier packages.
 keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'release notes', 'upgrade instructions', 'telegram git notifier releases']
-tags: ['Notifier', 'Release notes', 'Upgrade instructions', 'Releases', 'Prologue']
+tags: ['Notifier', 'Release notes', 'Upgrade instructions', 'Releases', 'Prologue', 'Telegram Git Notifier Release Notes']
 ---
 
 # 🚀 Release Notes

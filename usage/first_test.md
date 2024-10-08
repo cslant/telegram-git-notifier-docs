@@ -2,7 +2,7 @@
 title: First test the bot | Telegram Git Notifier
 description: Test the bot with the start and menu commands. Use the /start and /menu commands to test the bot. Get the welcome message and set the menu for the bot.
 keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'test', 'start command', 'menu command', 'test bot', 'first test']
-tags: ['Notifier', 'First test', 'Start command', 'Menu command', 'Test bot', 'Usage']
+tags: ['Notifier', 'First test', 'Start command', 'Menu command', 'Test bot', 'Usage', 'Commands', 'Telegram Git Notifier Commands']
 ---
 
 import botMenuImg from '@site/repos/telegram-git-notifier-docs/images/menu.png';

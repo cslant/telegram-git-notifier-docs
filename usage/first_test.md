@@ -5,8 +5,8 @@ keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'test', 'start command
 tags: ['Notifier', 'First test', 'Start command', 'Menu command', 'Test bot', 'Usage', 'Commands', 'Telegram Git Notifier Commands']
 ---
 
-import botMenuImg from '@site/repos/telegram-git-notifier-docs/images/menu.png';
-import startImg from '@site/repos/telegram-git-notifier-docs/images/start_command.png';
+import botMenuImg from '@site/repos/telegram-git-notifier-docs/images/tgn_menu.png';
+import startImg from '@site/repos/telegram-git-notifier-docs/images/tgn_start_command.png';
 
 # 🤖 First test the bot
 

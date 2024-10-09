@@ -5,6 +5,11 @@ keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'test', 'start command
 tags: ['Notifier', 'First test', 'Start command', 'Menu command', 'Test bot', 'Usage', 'Commands', 'Telegram Git Notifier Commands']
 ---
 
+<head>
+  <meta name="robots" content="index,follow" />
+  <meta name="author" content="CSlant" />
+</head>
+
 import botMenuImg from '@site/repos/telegram-git-notifier-docs/images/tgn_menu.png';
 import startImg from '@site/repos/telegram-git-notifier-docs/images/tgn_start_command.png';
 

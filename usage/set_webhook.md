@@ -5,6 +5,11 @@ keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'add webhook', 'add we
 tags: ['Notifier', 'Add webhook', 'Add webhook for repository', 'Add webhook for GitHub', 'Add webhook for GitLab', 'Usage', 'Telegram Git Notifier Usage']
 ---
 
+<head>
+  <meta name="robots" content="index,follow" />
+  <meta name="author" content="CSlant" />
+</head>
+
 # 📥 Add repository webhook
 
 You will need to add the Webhook for your GitHub and GitLab repository to receive notifications.
@@ -38,6 +43,11 @@ Add webhook on your GitLab repository to receive notifications, please follow th
 6. Click on the `Enable SSL verification` checkbox and Add webhook button.
 
 ---
+
+<head>
+  <meta name="robots" content="index,follow" />
+  <meta name="author" content="CSlant" />
+</head>
 
 :::tip[Note]
 You can set up this webhook for different repositories. Please similarly set up the webhook for each repository.

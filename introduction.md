@@ -5,6 +5,11 @@ keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'github', 'gitlab', 'n
 tags: ['Notifier', 'Introduction', 'Telegram bot', 'GitHub', 'GitLab', 'Notifications', 'Telegram Git Notifier Introduction']
 ---
 
+<head>
+  <meta name="robots" content="index,follow" />
+  <meta name="author" content="CSlant" />
+</head>
+
 # Introduction
 
 With this package, you can create a Telegram bot to **receive notifications from GitHub or GitLab events**.

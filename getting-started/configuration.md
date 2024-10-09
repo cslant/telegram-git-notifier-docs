@@ -5,6 +5,11 @@ keywords: ["laravel telegram git notifier", "configuration", "laravel telegram g
 tags: ["Configuration", "Get Started", "Create new bot", "Get chat ID", "Set webhook", "Add webhook", "Set chat IDs", "Receive notifications", "Laravel Telegram Git Notifier Configuration"]
 ---
 
+<head>
+  <meta name="robots" content="index,follow" />
+  <meta name="author" content="CSlant" />
+</head>
+
 # 🛠 Configuration
 
 Once installed, please follow the instructions below to configure the package properly.
@@ -52,6 +57,11 @@ TGN_APP_URL=http://localhost:8000
 :::
 
 ---
+
+<head>
+  <meta name="robots" content="index,follow" />
+  <meta name="author" content="CSlant" />
+</head>
 
 So now, the telegram-git-notifier tool will be available at the following address:
 
@@ -119,6 +129,11 @@ TELEGRAM_NOTIFY_CHAT_IDS="-978339113;-1001933979183:2,13;6872320129"
 ```
 
 ---
+
+<head>
+  <meta name="robots" content="index,follow" />
+  <meta name="author" content="CSlant" />
+</head>
 
 ## Conclusion
 

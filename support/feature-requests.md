@@ -5,6 +5,11 @@ keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'feature requests', 'n
 tags: ['Notifier', 'Feature Requests', 'New features', 'Requests', 'Telegram Git Notifier Feature']
 ---
 
+<head>
+  <meta name="robots" content="index,follow" />
+  <meta name="author" content="CSlant" />
+</head>
+
 # 🔥 Feature Requests
 
 If you have any feature requests, please open an issue with the `feature request` label on

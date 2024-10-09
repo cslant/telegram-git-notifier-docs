@@ -5,6 +5,11 @@ keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'set menu', 'set menu 
 tags: ['Notifier', 'Set menu', 'Set command', 'Usage', 'Commands', 'Telegram Git Notifier Commands']
 ---
 
+<head>
+  <meta name="robots" content="index,follow" />
+  <meta name="author" content="CSlant" />
+</head>
+
 import setMenuCmdImg from '@site/repos/telegram-git-notifier-docs/images/tgn_set_menu.png';
 import setMenuImg from '@site/repos/telegram-git-notifier-docs/images/tgn_set_menu_2.png';
 

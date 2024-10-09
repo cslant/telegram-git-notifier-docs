@@ -5,6 +5,11 @@ keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'github', 'events', 'g
 tags: ['Notifier', 'GitHub Events', 'Actions', 'GitHub Events Available', 'Events', 'GitHub Actions', 'List of GitHub Events']
 ---
 
+<head>
+  <meta name="robots" content="index,follow" />
+  <meta name="author" content="CSlant" />
+</head>
+
 # 🐙 GitHub Events
 
 Here are the GitHub events that the tool can notify you about.

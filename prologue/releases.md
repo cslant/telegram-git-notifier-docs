@@ -5,6 +5,11 @@ keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'release notes', 'upgr
 tags: ['Notifier', 'Release notes', 'Upgrade instructions', 'Releases', 'Prologue', 'Telegram Git Notifier Release Notes']
 ---
 
+<head>
+  <meta name="robots" content="index,follow" />
+  <meta name="author" content="CSlant" />
+</head>
+
 # 🚀 Release Notes
 
 Check release notes and upgrade instructions for the following packages:

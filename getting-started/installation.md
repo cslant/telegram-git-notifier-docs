@@ -5,6 +5,11 @@ keywords: ["laravel telegram git notifier", "installation", "install laravel tel
 tags: ["Installation", "Get Started", "Composer", "Publish Config", "Fix Permissions", "Laravel Telegram Git Notifier", "Laravel Telegram Git Notifier Installation"]
 ---
 
+<head>
+  <meta name="robots" content="index,follow" />
+  <meta name="author" content="CSlant" />
+</head>
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import styles from '@site/repos/telegram-git-notifier-docs/styles/commands.module.scss';

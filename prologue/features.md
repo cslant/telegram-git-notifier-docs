@@ -5,6 +5,11 @@ keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'features', 'telegram 
 tags: ['Notifier', 'Features', 'GitHub', 'GitLab', 'Notifications', 'Interactive buttons', 'Multiple repositories', 'Multiple topics', 'Multiple languages', 'Event management', 'Telegram bot']
 ---
 
+<head>
+  <meta name="robots" content="index,follow" />
+  <meta name="author" content="CSlant" />
+</head>
+
 # 🎉 Features
 
 You can see the list of features below.

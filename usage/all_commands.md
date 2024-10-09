@@ -5,6 +5,11 @@ keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'all commands', 'all c
 tags: ['Notifier', 'All commands', 'All commands available', 'Usage', 'Commands', 'Telegram Git Notifier Commands']
 ---
 
+<head>
+  <meta name="robots" content="index,follow" />
+  <meta name="author" content="CSlant" />
+</head>
+
 # 🗒 All commands available
 
 Here is a list of all the commands available in the bot.

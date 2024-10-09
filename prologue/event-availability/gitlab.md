@@ -5,6 +5,11 @@ keywords: ['gitlab', 'events', 'gitlab events', 'gitlab actions', 'gitlab events
 tags: ['Notifier', 'GitLab Action', 'Events', 'Actions', 'GitLab Events Available', 'GitLab Actions Available', 'Telegram Git Notifier GitLab Events', 'GitLab Events']
 ---
 
+<head>
+  <meta name="robots" content="index,follow" />
+  <meta name="author" content="CSlant" />
+</head>
+
 # 🦊 GitLab Events
 
 Here are the GitLab events that the tool can notify you about.

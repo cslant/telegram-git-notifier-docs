@@ -5,6 +5,11 @@ keywords: ["requirements", "environment", "dependencies for telegram git notifie
 tags: ["Requirements", "Environment", "Dependencies", "Composer", "Laravel Telegram Git Notifier Requirements"]
 ---
 
+<head>
+  <meta name="robots" content="index,follow" />
+  <meta name="author" content="CSlant" />
+</head>
+
 # 📋 Requirements
 
 Here are the requirements for running Telegram Git Notifier.

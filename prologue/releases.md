@@ -8,6 +8,7 @@ tags: ['Notifier', 'Release notes', 'Upgrade instructions', 'Releases', 'Prologu
 <head>
   <meta name="robots" content="index,follow" />
   <meta name="author" content="CSlant" />
+  <link rel="canonical" data-rh="true" href="/telegram-git-notifier/prologue/releases" />
 </head>
 
 # 🚀 Release Notes

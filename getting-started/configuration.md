@@ -8,6 +8,7 @@ tags: ["Configuration", "Get Started", "Create new bot", "Get chat ID", "Set web
 <head>
   <meta name="robots" content="index,follow" />
   <meta name="author" content="CSlant" />
+  <link rel="canonical" href="/telegram-git-notifier/getting-started/configuration" data-rh="true" />
 </head>
 
 # 🛠 Configuration

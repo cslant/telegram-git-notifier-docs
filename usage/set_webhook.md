@@ -8,6 +8,7 @@ tags: ['Notifier', 'Add webhook', 'Add webhook for repository', 'Add webhook for
 <head>
   <meta name="robots" content="index,follow" />
   <meta name="author" content="CSlant" />
+  <link rel="canonical" data-rh="true" href="/telegram-git-notifier/usage/set_webhook" />
 </head>
 
 # 📥 Add repository webhook

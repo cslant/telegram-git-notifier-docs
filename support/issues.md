@@ -8,6 +8,7 @@ tags: ['Notifier', 'Issues', 'Bug reports', 'Report issues', 'Telegram Git Notif
 <head>
   <meta name="robots" content="index,follow" />
   <meta name="author" content="CSlant" />
+  <link rel="canonical" data-rh="true" href="/telegram-git-notifier/support/issues" />
 </head>
 
 # 📢 Issues

@@ -8,6 +8,7 @@ tags: ['Notifier', 'All commands', 'All commands available', 'Usage', 'Commands'
 <head>
   <meta name="robots" content="index,follow" />
   <meta name="author" content="CSlant" />
+  <link rel="canonical" data-rh="true" href="/telegram-git-notifier/usage/all_commands" />
 </head>
 
 # 🗒 All commands available

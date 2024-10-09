@@ -8,6 +8,7 @@ tags: ['Notifier', 'GitLab Action', 'Events', 'Actions', 'GitLab Events Availabl
 <head>
   <meta name="robots" content="index,follow" />
   <meta name="author" content="CSlant" />
+  <link rel="canonical" data-rh="true" href="/telegram-git-notifier/prologue/event-availability/gitlab" />
 </head>
 
 # 🦊 GitLab Events

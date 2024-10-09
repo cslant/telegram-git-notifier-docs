@@ -8,6 +8,7 @@ tags: ['Notifier', 'Set menu', 'Set command', 'Usage', 'Commands', 'Telegram Git
 <head>
   <meta name="robots" content="index,follow" />
   <meta name="author" content="CSlant" />
+  <link rel="canonical" data-rh="true" href="/telegram-git-notifier/usage/set_menu" />
 </head>
 
 import setMenuCmdImg from '@site/repos/telegram-git-notifier-docs/images/tgn_set_menu.png';

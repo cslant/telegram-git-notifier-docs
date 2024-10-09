@@ -8,6 +8,7 @@ tags: ['Notifier', 'First test', 'Start command', 'Menu command', 'Test bot', 'U
 <head>
   <meta name="robots" content="index,follow" />
   <meta name="author" content="CSlant" />
+  <link rel="canonical" data-rh="true" href="/telegram-git-notifier/usage/first_test" />
 </head>
 
 import botMenuImg from '@site/repos/telegram-git-notifier-docs/images/tgn_menu.png';

@@ -8,6 +8,7 @@ tags: ["Installation", "Get Started", "Composer", "Publish Config", "Fix Permiss
 <head>
   <meta name="robots" content="index,follow" />
   <meta name="author" content="CSlant" />
+  <link rel="canonical" href="/telegram-git-notifier/getting-started/installation" data-rh="true" />
 </head>
 
 import Tabs from '@theme/Tabs';

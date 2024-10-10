@@ -1,5 +1,5 @@
 import Link from "@docusaurus/Link";
-import SvgBackground from "@site/repos/telegram-git-notifier-docs/images/telegram-git-notifier-background.svg";
+import SvgBackground from "@site/repos/telegram-git-notifier-docs/assets/images/telegram-git-notifier-background.svg";
 import Heading from "@theme/Heading";
 import Layout from "@theme/Layout";
 import clsx from "clsx";

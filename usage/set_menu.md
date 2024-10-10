@@ -11,8 +11,8 @@ tags: ['Notifier', 'Set menu', 'Set command', 'Usage', 'Commands', 'Telegram Git
   <link rel="canonical" data-rh="true" href="/telegram-git-notifier/usage/set_menu" />
 </head>
 
-import setMenuCmdImg from '@site/repos/telegram-git-notifier-docs/images/tgn_set_menu.png';
-import setMenuImg from '@site/repos/telegram-git-notifier-docs/images/tgn_set_menu_2.png';
+import setMenuCmdImg from '@site/repos/telegram-git-notifier-docs/assets/images/tgn_set_menu.png';
+import setMenuImg from '@site/repos/telegram-git-notifier-docs/assets/images/tgn_set_menu_2.png';
 
 # 📃 Set menu for the bot
 

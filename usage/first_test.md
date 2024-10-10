@@ -11,8 +11,8 @@ tags: ['Notifier', 'First test', 'Start command', 'Menu command', 'Test bot', 'U
   <link rel="canonical" data-rh="true" href="/telegram-git-notifier/usage/first_test" />
 </head>
 
-import botMenuImg from '@site/repos/telegram-git-notifier-docs/assets/images/tgn_menu.png';
-import startImg from '@site/repos/telegram-git-notifier-docs/assets/images/tgn_start_command.png';
+import botMenuImg from '@site/repos/telegram-git-notifier-docs/assets/images/tgn-menu.png';
+import startImg from '@site/repos/telegram-git-notifier-docs/assets/images/tgn-start-command.png';
 
 # 🤖 First test the bot
 

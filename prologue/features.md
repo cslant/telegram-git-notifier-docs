@@ -19,7 +19,7 @@ You can see the list of features below.
 
 The package allows you to configure a Telegram bot to receive notifications from various GitHub/GitLab events, including events like **commits, pull requests, issues, releases, and many more.**
 
-![github_notifications](../assets/images/github-notifications.png)
+![github_notifications](../assets/images/tgn-github-notifications.png)
 
 ## Customizable Messages and Buttons
 
@@ -54,4 +54,4 @@ You can manage specific events that you want to receive notifications. Tailor yo
 - Support for multiple platforms: **GitHub** and **GitLab**.
 - Manage event notifications separately between platforms.
 
-![github_event_management](../assets/images/github_event_management.png)
+![github_event_management](../assets/images/tgn-github-event-management.png)

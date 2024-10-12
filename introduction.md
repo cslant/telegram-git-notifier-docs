@@ -34,6 +34,5 @@ Please see all the features of this package in the [Features](prologue/features)
 Other sections of the documentation are available in the sidebar.
 - [Installation](getting-started/installation)
 - [Configuration](getting-started/configuration)
-- [Usage](usage)
 - [Features](prologue/features)
 - [Changelog](prologue/releases)

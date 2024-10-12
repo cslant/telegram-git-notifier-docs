@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.scss";
+import "../../assets/styles/feature/style.scss";
 
 type FeatureItem = {
   title: string;

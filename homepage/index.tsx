@@ -4,7 +4,7 @@ import Heading from "@theme/Heading";
 import Layout from "@theme/Layout";
 import clsx from "clsx";
 
-import "./styles.scss";
+import "../assets/styles/styles.scss";
 import Feature from "./feature";
 import Head from "@docusaurus/core/lib/client/exports/Head";
 

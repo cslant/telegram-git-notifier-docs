@@ -30,7 +30,7 @@ Add webhook on your GitHub repository to receive notifications, please follow th
 
 Here is the first notification you will receive:
 
-[//]: # (![set_github_webhook]&#40;../assets/images/set_github_webhook.png&#41;)
+[//]: # (![set_github_webhook]&#40;../assets/public/images/set_github_webhook.png&#41;)
 
 ## For GitLab repository
 

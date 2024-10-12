@@ -13,7 +13,7 @@ tags: ["Installation", "Get Started", "Composer", "Publish Config", "Fix Permiss
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import styles from '@site/repos/telegram-git-notifier-docs/styles/commands.module.scss';
+import styles from '@site/repos/telegram-git-notifier-docs/assets/styles/commands.module.scss';
 
 # 🔧 Installation
 

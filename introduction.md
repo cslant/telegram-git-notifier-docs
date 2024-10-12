@@ -30,3 +30,10 @@ Also, you can customize the messages and buttons to manage the notifications fro
 - The bot must be created using the [BotFather](https://core.telegram.org/bots#6-botfather)
 
 Please see all the features of this package in the [Features](prologue/features) section.
+
+Other sections of the documentation are available in the sidebar.
+- [Installation](getting-started/installation)
+- [Configuration](getting-started/configuration)
+- [Usage](usage)
+- [Features](prologue/features)
+- [Changelog](prologue/releases)

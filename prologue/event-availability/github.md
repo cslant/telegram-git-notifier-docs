@@ -2,7 +2,7 @@
 title: GitHub Events | Telegram Git Notifier
 description: GitHub events that the Telegram Git Notifier can notify you about. Get the list of all GitHub events available in the bot. Events and actions are listed here.
 keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'github', 'events', 'github events', 'github actions', 'github events available']
-tags: ['Notifier', 'GitHub Events', 'Actions', 'GitHub Events Available', 'Events', 'GitHub Actions', 'List of GitHub Events']
+tags: ['Notifier', 'GitHub Events', 'Actions', 'GitHub Events Available', 'Events', 'GitHub Actions', 'List of GitHub Events', 'Prologue']
 ---
 
 <head>

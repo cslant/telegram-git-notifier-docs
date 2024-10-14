@@ -115,7 +115,7 @@ module.exports = {
       type: 'category',
       link: {
         type: 'generated-index',
-        description: 'This section will guide you through the process of creating your first bot and setting up the webhook.',
+        description: 'This section will guide for the development of the bot. All the available commands and the flow of the bot are explained here. Make sure you have a good understanding of the bot before you start developing. Good luck!',
       },
       label: 'Development',
       items: [

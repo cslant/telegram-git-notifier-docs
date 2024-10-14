@@ -115,6 +115,22 @@ module.exports = {
       type: 'category',
       link: {
         type: 'generated-index',
+        description: 'This section will guide you through the process of creating your first bot and setting up the webhook.',
+      },
+      label: 'Development',
+      items: [
+        {
+          type: 'doc',
+          id: 'development/send-notification-flow',
+          label: 'Send Notification Flow',
+        },
+      ],
+      collapsed: false,
+    },
+    {
+      type: 'category',
+      link: {
+        type: 'generated-index',
         description: 'Please check this section if you have any problems with the bot or you want to request a new feature.',
       },
       label: 'Support',

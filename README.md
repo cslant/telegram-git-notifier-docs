@@ -12,7 +12,7 @@ This repository contains the documentation for Telegram Git Notifier.
   <img alt="Telegram git notifier core" src="https://github.com/cslant/telegram-git-notifier/assets/35853002/d731d731-3c32-40a7-80d2-b079d7f1de6c" />
 </p>
 
-**Documentation is available at [https://docs.cslant.com/telegram-git-notifier/](https://docs.cslant.com/telegram-git-notifier/).**
+**Documentation is available at [https://docs.cslant.com/telegram-git-notifier](https://docs.cslant.com/telegram-git-notifier).**
 
 ---
 

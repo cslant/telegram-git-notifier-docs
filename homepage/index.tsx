@@ -25,7 +25,7 @@ function HomepageHeader() {
     <>
       <Head>
         <title>Homepage | Telegram Git Notifier | CSlant Documentation</title>
-        <link rel="canonical" href="https://docs.cslant.com/telegram-git-notifier/" data-rh="true" />
+        <link rel="canonical" href="https://docs.cslant.com/telegram-git-notifier" data-rh="true" />
         <meta name="description"
               content="Telegram Git Notifier is a package that allows you to create a Telegram bot to receive notifications from GitHub or GitLab events. You can use this package with Laravel or any PHP application."
               data-rh="true" />
@@ -40,7 +40,7 @@ function HomepageHeader() {
         <meta property="og:description"
               content="Telegram Git Notifier is a package that allows you to create a Telegram bot to receive notifications from GitHub or GitLab events. You can use this package with Laravel or any PHP application."
               data-rh="true" />
-        <meta property="og:url" content="https://docs.cslant.com/telegram-git-notifier/" data-rh="true" />
+        <meta property="og:url" content="https://docs.cslant.com/telegram-git-notifier" data-rh="true" />
       </Head>
       <header className="main_header">
         <div className="container">

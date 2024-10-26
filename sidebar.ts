@@ -128,7 +128,7 @@ module.exports = {
         {
           type: 'doc',
           id: 'development/send-notification-flow',
-          label: 'Send Notification Flow',
+          label: '🌊 Send Notification Flow',
         },
       ],
       collapsed: false,

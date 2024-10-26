@@ -1,4 +1,4 @@
-name: Deploy CSlant server
+name: Deploy CSlant Server
 
 on:
   push:

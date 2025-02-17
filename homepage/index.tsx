@@ -7,6 +7,7 @@ import clsx from "clsx";
 import "../assets/styles/styles.scss";
 import Feature from "./feature";
 import Head from "@docusaurus/core/lib/client/exports/Head";
+import { JSX } from "react";
 
 const HeaderData = {
   title: "Documentation For Telegram Git Notifier",

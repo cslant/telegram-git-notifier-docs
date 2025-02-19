@@ -160,7 +160,7 @@ module.exports = {
       link: {
         type: 'generated-index',
         title: 'GitHub Source - Telegram Git Notifier',
-        description: 'Please check this section if you want to contribute to the Telegram Git Notifier project. We will be happy to see your contributions. Let\'s make the bot better together!',
+        description: 'Please check this section if you want to contribute to the Telegram Git Notifier package. We will be happy to see your contributions. Let\'s make the bot better together!',
       },
       label: 'GitHub Source',
       collapsed: false,

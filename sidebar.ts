@@ -34,7 +34,7 @@ module.exports = {
           link: {
             type: 'generated-index',
             title: 'Event Availability - Telegram Git Notifier',
-            description: 'Shows all the available Github/Gitlab events that the bot can handle. You can also find the configuration guide here. We will keep adding more events in the future. Stay tuned!',
+            description: 'Shows all the available GitHub/Gitlab events that the bot can handle. You can also find the configuration guide here. We will keep adding more events in the future. Stay tuned!',
           },
           label: 'Event Availability',
           items: [

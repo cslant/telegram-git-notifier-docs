@@ -5,21 +5,43 @@ tags: ['Notifier', 'Feature Requests', 'New features', 'Requests', 'Telegram Git
 ---
 
 <head>
+  <!-- Basic Meta Tags -->
   <meta name="robots" content="index,follow" />
   <meta name="author" content="CSlant" />
-  <link rel="canonical" data-rh="true" href="/telegram-git-notifier/support/feature-requests" />
+  <meta name="generator" content="Docusaurus" />
+  <meta name="theme-color" content="#2e8555" />
   
-  {/* Open Graph tags */}
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://docs.cslant.com/telegram-git-notifier/support/feature-requests" />
+  
+  <!-- Open Graph Meta Tags -->
   <meta property="og:title" content="Feature Requests | Telegram Git Notifier" />
   <meta property="og:description" content="Request new features for the Telegram Git Notifier. Request new features for the Telegram Git Notifier bot. Get the list of all feature requests available in..." />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://docs.cslant.com/telegram-git-notifier/support/feature-requests" />
+  <meta property="og:site_name" content="Telegram Git Notifier Documentation" />
+  <meta property="og:locale" content="en_US" />
   
-  {/* Twitter Card tags */}
-  <meta name="twitter:card" content="summary" />
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Feature Requests | Telegram Git Notifier" />
   <meta name="twitter:description" content="Request new features for the Telegram Git Notifier. Request new features for the Telegram Git Notifier bot. Get the list of all feature requests available in..." />
-</head>
+  <meta name="twitter:creator" content="@cslantofficial" />
+  <meta name="twitter:site" content="@cslantofficial" />
+  
+  <!-- Additional Meta Tags -->
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  
+  <!-- Article Meta Tags -->
+  <meta property="article:published_time" content="2025-07-21T00:00:00Z" />
+  <meta property="article:modified_time" content="2025-07-21T00:00:00Z" />
+  <meta property="article:author" content="CSlant" />
+  <meta property="article:section" content="Documentation" />
+  
+  </head>
 
 # 🔥 Feature Requests
 

@@ -1,7 +1,6 @@
 ---
 title: Introduction | Telegram Git Notifier
 description: Introduction to the Telegram Git Notifier package. Create a Telegram bot to receive notifications from GitHub or GitLab events. Customize the messages and buttons to manage the notifications from Telegram.
-keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'github', 'gitlab', 'notifications', 'receive notifications', 'telegram git notifier']
 tags: ['Notifier', 'Introduction', 'Telegram bot', 'GitHub', 'GitLab', 'Notifications', 'Telegram Git Notifier Introduction', 'Get Started']
 image: images/telegram-git-notifier-background.svg
 ---
@@ -10,6 +9,17 @@ image: images/telegram-git-notifier-background.svg
   <meta name="robots" content="index,follow" />
   <meta name="author" content="CSlant" />
   <link rel="canonical" data-rh="true" href="/telegram-git-notifier/introduction" />
+  
+  {/* Open Graph tags */}
+  <meta property="og:title" content="Introduction | Telegram Git Notifier" />
+  <meta property="og:description" content="Introduction to the Telegram Git Notifier package. Create a Telegram bot to receive notifications from GitHub or GitLab events. Customize the messages and bu..." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://docs.cslant.com/telegram-git-notifier/introduction" />
+  
+  {/* Twitter Card tags */}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Introduction | Telegram Git Notifier" />
+  <meta name="twitter:description" content="Introduction to the Telegram Git Notifier package. Create a Telegram bot to receive notifications from GitHub or GitLab events. Customize the messages and bu..." />
 </head>
 
 # Introduction

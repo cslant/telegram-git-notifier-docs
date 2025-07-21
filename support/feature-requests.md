@@ -1,7 +1,6 @@
 ---
 title: Feature Requests | Telegram Git Notifier
 description: Request new features for the Telegram Git Notifier. Request new features for the Telegram Git Notifier bot. Get the list of all feature requests available in the bot.
-keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'feature requests', 'new features', 'request new features', 'feature requests for bot']
 tags: ['Notifier', 'Feature Requests', 'New features', 'Requests', 'Telegram Git Notifier Feature', 'Telegram bot', 'Support']
 ---
 
@@ -9,6 +8,17 @@ tags: ['Notifier', 'Feature Requests', 'New features', 'Requests', 'Telegram Git
   <meta name="robots" content="index,follow" />
   <meta name="author" content="CSlant" />
   <link rel="canonical" data-rh="true" href="/telegram-git-notifier/support/feature-requests" />
+  
+  {/* Open Graph tags */}
+  <meta property="og:title" content="Feature Requests | Telegram Git Notifier" />
+  <meta property="og:description" content="Request new features for the Telegram Git Notifier. Request new features for the Telegram Git Notifier bot. Get the list of all feature requests available in..." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://docs.cslant.com/telegram-git-notifier/support/feature-requests" />
+  
+  {/* Twitter Card tags */}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Feature Requests | Telegram Git Notifier" />
+  <meta name="twitter:description" content="Request new features for the Telegram Git Notifier. Request new features for the Telegram Git Notifier bot. Get the list of all feature requests available in..." />
 </head>
 
 # 🔥 Feature Requests

@@ -1,7 +1,6 @@
 ---
 title: GitLab Events for Telegram Git Notifier
 description: GitLab events that the Telegram Git Notifier can notify you about. Get the list of GitLab events that the tool can notify you about. Check the list of GitLab events and actions available for the Telegram Git Notifier.
-keywords: ['gitlab', 'events', 'gitlab events', 'gitlab actions', 'gitlab events for telegram git notifier', 'gitlab actions for telegram git notifier']
 tags: ['Notifier', 'GitLab Action', 'Events', 'Actions', 'GitLab Events Available', 'GitLab Actions Available', 'Telegram Git Notifier GitLab Events', 'GitLab Events', 'Prologue']
 ---
 
@@ -9,6 +8,17 @@ tags: ['Notifier', 'GitLab Action', 'Events', 'Actions', 'GitLab Events Availabl
   <meta name="robots" content="index,follow" />
   <meta name="author" content="CSlant" />
   <link rel="canonical" data-rh="true" href="/telegram-git-notifier/prologue/event-availability/gitlab" />
+  
+  {/* Open Graph tags */}
+  <meta property="og:title" content="GitLab Events for Telegram Git Notifier" />
+  <meta property="og:description" content="GitLab events that the Telegram Git Notifier can notify you about. Get the list of GitLab events that the tool can notify you about. Check the list of GitLab..." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://docs.cslant.com/telegram-git-notifier/prologue/event-availability/gitlab" />
+  
+  {/* Twitter Card tags */}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="GitLab Events for Telegram Git Notifier" />
+  <meta name="twitter:description" content="GitLab events that the Telegram Git Notifier can notify you about. Get the list of GitLab events that the tool can notify you about. Check the list of GitLab..." />
 </head>
 
 # 🦊 GitLab Events

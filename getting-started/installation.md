@@ -1,7 +1,6 @@
 ---
 title: Installation | Laravel Telegram Git Notifier
 description: Installation instructions for laravel telegram git notifier package. Install the package via composer, publish the config jsons, publish the config file, fix permissions for the config jsons.
-keywords: ["laravel telegram git notifier", "installation", "install laravel telegram git notifier", 'get started', 'laravel telegram git notifier get started', 'composer', 'publish config', 'fix permissions']
 tags: ["Installation", "Get Started", "Composer", "Publish Config", "Fix Permissions", "Laravel Telegram Git Notifier", "Laravel Telegram Git Notifier Installation"]
 ---
 
@@ -9,6 +8,17 @@ tags: ["Installation", "Get Started", "Composer", "Publish Config", "Fix Permiss
   <meta name="robots" content="index,follow" />
   <meta name="author" content="CSlant" />
   <link rel="canonical" href="/telegram-git-notifier/getting-started/installation" data-rh="true" />
+  
+  {/* Open Graph tags */}
+  <meta property="og:title" content="Installation | Laravel Telegram Git Notifier" />
+  <meta property="og:description" content="Installation instructions for laravel telegram git notifier package. Install the package via composer, publish the config jsons, publish the config file, fix..." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://docs.cslant.com/telegram-git-notifier/getting-started/installation" />
+  
+  {/* Twitter Card tags */}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Installation | Laravel Telegram Git Notifier" />
+  <meta name="twitter:description" content="Installation instructions for laravel telegram git notifier package. Install the package via composer, publish the config jsons, publish the config file, fix..." />
 </head>
 
 import Tabs from '@theme/Tabs';

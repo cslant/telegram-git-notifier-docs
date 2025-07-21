@@ -1,7 +1,6 @@
 ---
 title: First test the bot | Telegram Git Notifier
 description: Test the bot with the start and menu commands. Use the /start and /menu commands to test the bot. Get the welcome message and set the menu for the bot.
-keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'test', 'start command', 'menu command', 'test bot', 'first test']
 tags: ['Notifier', 'First test', 'Start command', 'Menu command', 'Test bot', 'Usage', 'Commands', 'Telegram Git Notifier Commands', 'Telegram bot', 'Support']
 ---
 
@@ -9,6 +8,17 @@ tags: ['Notifier', 'First test', 'Start command', 'Menu command', 'Test bot', 'U
   <meta name="robots" content="index,follow" />
   <meta name="author" content="CSlant" />
   <link rel="canonical" data-rh="true" href="/telegram-git-notifier/usage/first_test" />
+  
+  {/* Open Graph tags */}
+  <meta property="og:title" content="First test the bot | Telegram Git Notifier" />
+  <meta property="og:description" content="Test the bot with the start and menu commands. Use the /start and /menu commands to test the bot. Get the welcome message and set the menu for the bot." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://docs.cslant.com/telegram-git-notifier/usage/first_test" />
+  
+  {/* Twitter Card tags */}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="First test the bot | Telegram Git Notifier" />
+  <meta name="twitter:description" content="Test the bot with the start and menu commands. Use the /start and /menu commands to test the bot. Get the welcome message and set the menu for the bot." />
 </head>
 
 import botMenuImg from '@site/repos/telegram-git-notifier-docs/assets/public/images/tgn-menu.png';

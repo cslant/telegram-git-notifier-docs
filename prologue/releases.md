@@ -1,7 +1,6 @@
 ---
 title: Releases of Telegram Git Notifier
 description: Release notes and upgrade instructions for Telegram Git Notifier packages. Check the release notes and upgrade instructions for the Telegram Git Notifier packages.
-keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'release notes', 'upgrade instructions', 'telegram git notifier releases']
 tags: ['Notifier', 'Release notes', 'Upgrade instructions', 'Releases', 'Prologue', 'Telegram Git Notifier Release Notes']
 ---
 
@@ -9,6 +8,17 @@ tags: ['Notifier', 'Release notes', 'Upgrade instructions', 'Releases', 'Prologu
   <meta name="robots" content="index,follow" />
   <meta name="author" content="CSlant" />
   <link rel="canonical" data-rh="true" href="/telegram-git-notifier/prologue/releases" />
+  
+  {/* Open Graph tags */}
+  <meta property="og:title" content="Releases of Telegram Git Notifier" />
+  <meta property="og:description" content="Release notes and upgrade instructions for Telegram Git Notifier packages. Check the release notes and upgrade instructions for the Telegram Git Notifier pac..." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://docs.cslant.com/telegram-git-notifier/prologue/releases" />
+  
+  {/* Twitter Card tags */}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Releases of Telegram Git Notifier" />
+  <meta name="twitter:description" content="Release notes and upgrade instructions for Telegram Git Notifier packages. Check the release notes and upgrade instructions for the Telegram Git Notifier pac..." />
 </head>
 
 # 🚀 Release Notes

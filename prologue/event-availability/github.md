@@ -1,7 +1,6 @@
 ---
 title: GitHub Events | Telegram Git Notifier
 description: GitHub events that the Telegram Git Notifier can notify you about. Get the list of all GitHub events available in the bot. Events and actions are listed here.
-keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'github', 'events', 'github events', 'github actions', 'github events available']
 tags: ['Notifier', 'GitHub Events', 'Actions', 'GitHub Events Available', 'Events', 'GitHub Actions', 'List of GitHub Events', 'Prologue']
 ---
 
@@ -9,6 +8,17 @@ tags: ['Notifier', 'GitHub Events', 'Actions', 'GitHub Events Available', 'Event
   <meta name="robots" content="index,follow" />
   <meta name="author" content="CSlant" />
   <link rel="canonical" data-rh="true" href="/telegram-git-notifier/prologue/event-availability/github" />
+  
+  {/* Open Graph tags */}
+  <meta property="og:title" content="GitHub Events | Telegram Git Notifier" />
+  <meta property="og:description" content="GitHub events that the Telegram Git Notifier can notify you about. Get the list of all GitHub events available in the bot. Events and actions are listed here." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://docs.cslant.com/telegram-git-notifier/prologue/event-availability/github" />
+  
+  {/* Twitter Card tags */}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="GitHub Events | Telegram Git Notifier" />
+  <meta name="twitter:description" content="GitHub events that the Telegram Git Notifier can notify you about. Get the list of all GitHub events available in the bot. Events and actions are listed here." />
 </head>
 
 # 🐙 GitHub Events

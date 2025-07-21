@@ -1,7 +1,6 @@
 ---
 title: Configuration laravel Telegram Git Notifier
 description: All configuration for laravel telegram git notifier package to get started with it. Set up the bot, get the token, get the chat ID, set the tool URL, set the webhook, set the chat IDs that will receive notifications.
-keywords: ["laravel telegram git notifier", "configuration", "laravel telegram git notifier configuration", 'get started', 'laravel telegram git notifier get started']
 tags: ["Configuration", "Get Started", "Create new bot", "Get chat ID", "Set webhook", "Add webhook", "Set chat IDs", "Receive notifications", "Laravel Telegram Git Notifier Configuration"]
 ---
 
@@ -9,6 +8,17 @@ tags: ["Configuration", "Get Started", "Create new bot", "Get chat ID", "Set web
   <meta name="robots" content="index,follow" />
   <meta name="author" content="CSlant" />
   <link rel="canonical" href="/telegram-git-notifier/getting-started/configuration" data-rh="true" />
+  
+  {/* Open Graph tags */}
+  <meta property="og:title" content="Configuration laravel Telegram Git Notifier" />
+  <meta property="og:description" content="All configuration for laravel telegram git notifier package to get started with it. Set up the bot, get the token, get the chat ID, set the tool URL, set the..." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://docs.cslant.com/telegram-git-notifier/getting-started/configuration" />
+  
+  {/* Twitter Card tags */}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Configuration laravel Telegram Git Notifier" />
+  <meta name="twitter:description" content="All configuration for laravel telegram git notifier package to get started with it. Set up the bot, get the token, get the chat ID, set the tool URL, set the..." />
 </head>
 
 # 🛠 Configuration

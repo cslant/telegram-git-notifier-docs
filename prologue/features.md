@@ -1,7 +1,6 @@
 ---
 title: Features of Telegram Git Notifier
 description: All features of Telegram Git Notifier package for managing notifications from GitHub and GitLab. Check the features of the Telegram Git Notifier package.
-keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'features', 'telegram git notifier features', 'github notifications', 'gitlab notifications', 'interactive buttons', 'multiple repositories', 'multiple topics', 'multiple languages', 'event management']
 tags: ['Notifier', 'Features', 'GitHub', 'GitLab', 'Notifications', 'Interactive buttons', 'Multiple repositories', 'Multiple topics', 'Multiple languages', 'Event management', 'Telegram bot', 'Prologue']
 ---
 
@@ -9,6 +8,17 @@ tags: ['Notifier', 'Features', 'GitHub', 'GitLab', 'Notifications', 'Interactive
   <meta name="robots" content="index,follow" />
   <meta name="author" content="CSlant" />
   <link rel="canonical" data-rh="true" href="/telegram-git-notifier/prologue/features" />
+  
+  {/* Open Graph tags */}
+  <meta property="og:title" content="Features of Telegram Git Notifier" />
+  <meta property="og:description" content="All features of Telegram Git Notifier package for managing notifications from GitHub and GitLab. Check the features of the Telegram Git Notifier package." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://docs.cslant.com/telegram-git-notifier/prologue/features" />
+  
+  {/* Twitter Card tags */}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Features of Telegram Git Notifier" />
+  <meta name="twitter:description" content="All features of Telegram Git Notifier package for managing notifications from GitHub and GitLab. Check the features of the Telegram Git Notifier package." />
 </head>
 
 # 🎉 Features

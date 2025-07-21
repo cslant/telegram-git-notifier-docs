@@ -1,7 +1,6 @@
 ---
 title: Issues | Telegram Git Notifier
 description: Issues and bug reports for the Telegram Git Notifier. Report issues and bugs for the Telegram Git Notifier bot. Get the list of all issues available in the bot.
-keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'issues', 'bug reports', 'report issues', 'issues for bot']
 tags: ['Notifier', 'Issues', 'Bug reports', 'Report issues', 'Telegram Git Notifier Issues', 'Telegram bot', 'Support']
 ---
 
@@ -9,6 +8,17 @@ tags: ['Notifier', 'Issues', 'Bug reports', 'Report issues', 'Telegram Git Notif
   <meta name="robots" content="index,follow" />
   <meta name="author" content="CSlant" />
   <link rel="canonical" data-rh="true" href="/telegram-git-notifier/support/issues" />
+  
+  {/* Open Graph tags */}
+  <meta property="og:title" content="Issues | Telegram Git Notifier" />
+  <meta property="og:description" content="Issues and bug reports for the Telegram Git Notifier. Report issues and bugs for the Telegram Git Notifier bot. Get the list of all issues available in the bot." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://docs.cslant.com/telegram-git-notifier/support/issues" />
+  
+  {/* Twitter Card tags */}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Issues | Telegram Git Notifier" />
+  <meta name="twitter:description" content="Issues and bug reports for the Telegram Git Notifier. Report issues and bugs for the Telegram Git Notifier bot. Get the list of all issues available in the bot." />
 </head>
 
 # 📢 Issues

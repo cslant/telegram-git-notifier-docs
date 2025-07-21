@@ -1,7 +1,6 @@
 ---
 title: All commands available for the Telegram Git Notifier
 description: All commands available for the Telegram Git Notifier bot. Use the commands to manage notifications from GitHub and GitLab. Get the list of all commands available in the bot.
-keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'all commands', 'all commands available', 'all commands for bot']
 tags: ['Notifier', 'All commands', 'All commands available', 'Usage', 'Commands', 'Telegram Git Notifier Commands', 'Telegram bot', 'Support']
 ---
 
@@ -9,6 +8,17 @@ tags: ['Notifier', 'All commands', 'All commands available', 'Usage', 'Commands'
   <meta name="robots" content="index,follow" />
   <meta name="author" content="CSlant" />
   <link rel="canonical" data-rh="true" href="/telegram-git-notifier/usage/all_commands" />
+  
+  {/* Open Graph tags */}
+  <meta property="og:title" content="All commands available for the Telegram Git Notifier" />
+  <meta property="og:description" content="All commands available for the Telegram Git Notifier bot. Use the commands to manage notifications from GitHub and GitLab. Get the list of all commands avail..." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://docs.cslant.com/telegram-git-notifier/usage/all_commands" />
+  
+  {/* Twitter Card tags */}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="All commands available for the Telegram Git Notifier" />
+  <meta name="twitter:description" content="All commands available for the Telegram Git Notifier bot. Use the commands to manage notifications from GitHub and GitLab. Get the list of all commands avail..." />
 </head>
 
 # 🗒 All commands available

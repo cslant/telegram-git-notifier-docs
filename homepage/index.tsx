@@ -30,9 +30,7 @@ function HomepageHeader() {
         <meta name="description"
               content="Telegram Git Notifier is a package that allows you to create a Telegram bot to receive notifications from GitHub or GitLab events. You can use this package with Laravel or any PHP application."
               data-rh="true" />
-        <meta name="keywords"
-              content="laravel telegram git notifier,telegram git notifier,telegram bot,gitlab,github,laravel,php,package,documentation"
-              data-rh="true" />
+
         <meta name="author" content="CSlant" data-rh="true" />
         <meta name="robots" content="index, follow" data-rh="true" />
         <meta property="og:site_name" content="Telegram Git Notifier Documentation" data-rh="true" />
@@ -42,6 +40,11 @@ function HomepageHeader() {
               content="Telegram Git Notifier is a package that allows you to create a Telegram bot to receive notifications from GitHub or GitLab events. You can use this package with Laravel or any PHP application."
               data-rh="true" />
         <meta property="og:url" content="https://docs.cslant.com/telegram-git-notifier" data-rh="true" />
+
+        {/* Twitter Card tags */}
+        <meta name="twitter:card" content="summary_large_image" data-rh="true" />
+        <meta name="twitter:title" content="Telegram Git Notifier Documentation" data-rh="true" />
+        <meta name="twitter:description" content="Telegram Git Notifier is a package that allows you to create a Telegram bot to receive notifications from GitHub or GitLab events. You can use this package with Laravel or any PHP application." data-rh="true" />
       </Head>
       <header className="main_header">
         <div className="container">

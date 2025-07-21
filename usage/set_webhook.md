@@ -1,7 +1,6 @@
 ---
 title: Add repository webhook Telegram Git Notifier
 description: Add webhook for your GitHub and GitLab repository to receive notifications. Add webhook for your GitHub and GitLab repository to receive notifications.
-keywords: ['telegram', 'git', 'notifier', 'telegram bot', 'add webhook', 'add webhook for repository', 'add webhook for github', 'add webhook for gitlab', 'telegram git notifier usage']
 tags: ['Notifier', 'Add webhook', 'Add webhook for repository', 'Add webhook for GitHub', 'Add webhook for GitLab', 'Usage', 'Telegram Git Notifier Usage', 'Telegram bot', 'Support']
 ---
 
@@ -9,6 +8,17 @@ tags: ['Notifier', 'Add webhook', 'Add webhook for repository', 'Add webhook for
   <meta name="robots" content="index,follow" />
   <meta name="author" content="CSlant" />
   <link rel="canonical" data-rh="true" href="/telegram-git-notifier/usage/set_webhook" />
+  
+  {/* Open Graph tags */}
+  <meta property="og:title" content="Add repository webhook Telegram Git Notifier" />
+  <meta property="og:description" content="Add webhook for your GitHub and GitLab repository to receive notifications. Add webhook for your GitHub and GitLab repository to receive notifications." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://docs.cslant.com/telegram-git-notifier/usage/set_webhook" />
+  
+  {/* Twitter Card tags */}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Add repository webhook Telegram Git Notifier" />
+  <meta name="twitter:description" content="Add webhook for your GitHub and GitLab repository to receive notifications. Add webhook for your GitHub and GitLab repository to receive notifications." />
 </head>
 
 # 📥 Add repository webhook

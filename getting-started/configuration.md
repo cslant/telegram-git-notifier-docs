@@ -1,6 +1,7 @@
 ---
 title: Configuration laravel Telegram Git Notifier
 description: All configuration for laravel telegram git notifier package to get started with it. Set up the bot, get the token, get the chat ID, set the tool URL, set the webhook, set the chat IDs that will receive notifications.
+keywords: ["laravel telegram git notifier", "configuration", "laravel telegram git notifier configuration", 'get started', 'laravel telegram git notifier get started']
 tags: ["Configuration", "Get Started", "Create new bot", "Get chat ID", "Set webhook", "Add webhook", "Set chat IDs", "Receive notifications", "Laravel Telegram Git Notifier Configuration"]
 ---
 

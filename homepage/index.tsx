@@ -27,7 +27,12 @@ function HomepageHeader() {
       <Head>
         <title>Homepage | Telegram Git Notifier | CSlant Documentation</title>
         <link rel="canonical" href="https://docs.cslant.com/telegram-git-notifier" data-rh="true" />
-        <meta name="description" content="Telegram Git Notifier Documentation - Documentation" data-rh="true" />
+        <meta name="description"
+              content="Telegram Git Notifier is a package that allows you to create a Telegram bot to receive notifications from GitHub or GitLab events. You can use this package with Laravel or any PHP application."
+              data-rh="true" />
+        <meta name="keywords"
+              content="laravel telegram git notifier,telegram git notifier,telegram bot,gitlab,github,laravel,php,package,documentation"
+              data-rh="true" />
         <meta name="author" content="CSlant" data-rh="true" />
         <meta name="robots" content="index, follow" data-rh="true" />
         <meta name="theme-color" content="#2e8555" data-rh="true" />

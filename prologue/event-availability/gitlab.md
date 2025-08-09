@@ -1,6 +1,7 @@
 ---
 title: GitLab Events for Telegram Git Notifier
 description: GitLab events that the Telegram Git Notifier can notify you about. Get the list of GitLab events that the tool can notify you about. Check the list of GitLab events and actions available for the Telegram Git Notifier.
+keywords: ['gitlab', 'events', 'gitlab events', 'gitlab actions', 'gitlab events for telegram git notifier', 'gitlab actions for telegram git notifier']
 tags: ['Notifier', 'GitLab Action', 'Events', 'Actions', 'GitLab Events Available', 'GitLab Actions Available', 'Telegram Git Notifier GitLab Events', 'GitLab Events', 'Prologue']
 ---
 

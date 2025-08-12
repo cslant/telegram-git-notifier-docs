@@ -8,8 +8,6 @@ This repository contains the documentation for Telegram Git Notifier.
 
 **PHP PURE APPLICATION**: [Telegram Git Notifier App](https://github.com/cslant/telegram-git-notifier-app.git)
 
-[![Deploy CSlant Server](https://github.com/cslant/telegram-git-notifier-docs/actions/workflows/deploy.yml/badge.svg)](https://github.com/cslant/telegram-git-notifier-docs/actions/workflows/deploy.yml)
-
 <p align="center">
   <img alt="Telegram git notifier core" src="https://github.com/cslant/telegram-git-notifier/assets/35853002/d731d731-3c32-40a7-80d2-b079d7f1de6c" />
 </p>

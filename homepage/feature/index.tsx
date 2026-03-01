@@ -1,10 +1,10 @@
-import React, { JSX, useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "../../assets/styles/feature/style.scss";
 
 type FeatureItem = {
   title: string;
   emoji: string;
-  description: JSX.Element;
+  description: React.ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [

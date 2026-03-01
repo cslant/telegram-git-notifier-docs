@@ -7,20 +7,23 @@ import clsx from "clsx";
 import "../assets/styles/styles.scss";
 import Feature from "./feature";
 import Head from "@docusaurus/core/lib/client/exports/Head";
-import { JSX } from "react";
+import React, { JSX } from "react";
+import { useMouseGlow } from '@site/src/components/useMouseGlow';
+import MouseGlowOverlay from '@site/src/components/MouseGlowOverlay';
 
 const HeaderData = {
   title: "Documentation For Telegram Git Notifier",
   Svg: SvgBackground,
   description:
     "With this package, you can create a Telegram bot to receive notifications from GitHub or GitLab events. You can use this package with Laravel or any PHP application.",
-  tags: ["telegram", "git", "notifier", "bot", "github", "gitlab"],
+  tags: ["Telegram", "GitHub", "GitLab", "Bot", "Laravel", "PHP"],
   startButtonLink: "/telegram-git-notifier/introduction",
-  startButtonLabel: "Get Started",
+  startButtonLabel: "🚀 Get Started",
 };
 
 function HomepageHeader() {
-  const {Svg, title, description, startButtonLink, startButtonLabel} = HeaderData;
+  const {Svg, title, description, tags, startButtonLink, startButtonLabel} = HeaderData;
+  const { glow, onMouseMove, onMouseLeave } = useMouseGlow();
 
   return (
     <>
@@ -55,14 +58,27 @@ function HomepageHeader() {
         <meta name="mobile-web-app-capable" content="yes" data-rh="true" />
         <meta name="apple-mobile-web-app-capable" content="yes" data-rh="true" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" data-rh="true" /></Head>
-      <header className="main_header">
+      <header
+        className="main_header"
+        onMouseMove={onMouseMove}
+        onMouseLeave={onMouseLeave}
+      >
+        <MouseGlowOverlay glow={glow} color="rgba(59, 130, 246, 0.18)" />
         <div className="container">
           <div className="row">
             <div className="col col--5 left_header">
+              <div className="tgn_badge">🤖 Git Notifications via Telegram</div>
               <Heading as="h1" className="hero__title main_title">
               {title}
               </Heading>
               <p className="hero__subtitle">{description}</p>
+              <div className="tags_container">
+                {tags.map((tag, idx) => (
+                  <span key={idx} className="tag-badge" style={{ animationDelay: `${0.5 + idx * 0.08}s` }}>
+                    {tag}
+                  </span>
+                ))}
+              </div>
               <div className="buttons">
                 <Link className="button button--info button--lg" to={startButtonLink}>
                   {startButtonLabel}
@@ -86,6 +102,20 @@ export default function TelegramGitNotifierHome(): JSX.Element {
       <main>
         <section className="home-page__features">
           <div className="container">
+            <hr className="section-divider" />
+            <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+              <h2 className="section-title-fancy" style={{
+                background: 'linear-gradient(135deg, #3b82f6, #0ea5e9)',
+                WebkitBackgroundClip: 'text',
+                backgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+              }}>
+                ⚡ Key Features
+              </h2>
+              <p className="section-subtitle-fancy">
+                Stay connected with your repositories through powerful Telegram notifications.
+              </p>
+            </div>
             <div className="row home-page__container">
               <Feature/>
             </div>

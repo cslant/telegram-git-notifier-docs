@@ -40,6 +40,4 @@ hide_title: true
   
   </head>
 
-import DocContent from '@site/repos/telegram-git-notifier/docs/send-notification-flow.md';
-
-<DocContent />
+> Content for this page is not available yet. Check back soon, or contribute it via the [edit link](https://github.com/cslant/laravel-telegram-git-notifier/edit/main/docs/send-notification-flow.md).

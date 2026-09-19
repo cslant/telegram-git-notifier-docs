@@ -10,6 +10,14 @@ import Head from "@docusaurus/core/lib/client/exports/Head";
 import React, { JSX } from "react";
 import { useMouseGlow } from '@site/src/components/useMouseGlow';
 import MouseGlowOverlay from '@site/src/components/MouseGlowOverlay';
+import SoftCard from '@site/src/components/softui/SoftCard';
+import StatCounter from '@site/src/components/softui/StatCounter';
+import SectionHeader from '@site/src/components/softui/SectionHeader';
+import StepCard from '@site/src/components/softui/StepCard';
+import CtaBanner from '@site/src/components/softui/CtaBanner';
+import FaqAccordion from '@site/src/components/softui/FaqAccordion';
+import Timeline from '@site/src/components/softui/Timeline';
+import softui from '@site/src/components/softui/softui.module.css';
 
 const HeaderData = {
   title: "Documentation For Telegram Git Notifier",
@@ -20,6 +28,99 @@ const HeaderData = {
   startButtonLink: "/telegram-git-notifier/introduction",
   startButtonLabel: "🚀 Get Started",
 };
+
+const stats = [
+  { value: 17, emoji: "📄", label: "Doc pages" },
+  { value: 39, emoji: "📡", label: "Supported event types" },
+  { value: 2, emoji: "🛰️", label: "Platforms: GitHub + GitLab" },
+  { value: 7, emoji: "🚀", label: "Releases shipped" },
+];
+
+const quickSteps = [
+  {
+    step: 1,
+    title: "Install via Composer",
+    description: "The package works with Laravel or any plain PHP application.",
+    code: "composer require cslant/telegram-git-notifier",
+  },
+  {
+    step: 2,
+    title: "Run the installer script",
+    description: "Generate the configuration and credential files without navigating complex install steps.",
+    code: "bash vendor/cslant/telegram-git-notifier/install.sh",
+  },
+  {
+    step: 3,
+    title: "Configure your bot",
+    description: "Set your Telegram bot token, chat target and the event types you want to receive.",
+  },
+  {
+    step: 4,
+    title: "Set up the webhook",
+    description: "Register the webhook URL on your GitHub or GitLab project and let the notifications flow.",
+  },
+];
+
+const timelineItems = [
+  {
+    period: "v2.0.0 · 2026",
+    title: "PHP 8.4+ & modern architecture",
+    description: "Platform enum, ChatTarget DTO with thread support, in-memory config caching, PSR-3 logging and API retry logic for HTTP 429.",
+    tags: ["PHP 8.4+", "Type-safe"],
+  },
+  {
+    period: "v1.5.0 · 2024",
+    title: "GitLab actions & team features",
+    description: "Updated GitLab event configuration and new team collaboration capabilities.",
+    tags: ["GitLab"],
+  },
+  {
+    period: "v1.3.0 · 2023",
+    title: "Enhanced features & optimizations",
+    description: "install.sh integration, codebase refactoring, comprehensive tests across multiple PHP versions and chatIDs parameter for Notifier.",
+    tags: ["Installer", "Refactor", "Tests"],
+  },
+  {
+    period: "v1.2.0 · 2023",
+    title: "Topics & bot commands",
+    description: "Send notifications to supergroup topics (threads), support for Telegram bot commands and custom buttons.",
+    tags: ["Topics", "Commands"],
+  },
+  {
+    period: "v1.0.0 · 2023",
+    title: "Initial release",
+    description: "First public release with webhook action support for GitHub and GitLab.",
+    tags: ["Webhooks"],
+  },
+];
+
+const faqs = [
+  {
+    question: "Which platforms are supported?",
+    answer:
+      "GitHub and GitLab. The package maps 28 GitHub event types and 11 GitLab event types, configurable through typed JSON event files.",
+  },
+  {
+    question: "Can I use it without Laravel?",
+    answer:
+      "Yes. The package works with Laravel or any plain PHP application — it is framework-agnostic by design.",
+  },
+  {
+    question: "What happens if Telegram enforces rate limits?",
+    answer:
+      "The package implements exponential backoff and retry logic for HTTP 429 responses, plus optional PSR-3 logging through the validator.",
+  },
+  {
+    question: "Do my servers need to be publicly reachable?",
+    answer:
+      "Yes — GitHub and GitLab push webhook payloads to your endpoint, so the app must expose the webhook route publicly.",
+  },
+  {
+    question: "Where are event mappings defined?",
+    answer:
+      "Event-to-payload mappings live in the package config under config/jsons (github-events.json and gitlab-events.json) and can be customized.",
+  },
+];
 
 function HomepageHeader() {
   const {Svg, title, description, tags, startButtonLink, startButtonLabel} = HeaderData;
@@ -95,30 +196,97 @@ function HomepageHeader() {
   );
 }
 
+function StatsBar() {
+  return (
+    <section className="home-page__section">
+      <div className="container">
+        <div className={softui.grid4}>
+          {stats.map((stat, idx) => (
+            <SoftCard key={idx} delay={idx * 0.1}>
+              <StatCounter {...stat} delay={idx * 0.1} />
+            </SoftCard>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function QuickStart() {
+  return (
+    <section className="home-page__section">
+      <div className="container">
+        <SectionHeader
+          title="Get Started in Four Steps"
+          subtitle="From installing the package to receiving your first git notification."
+          accent="linear-gradient(135deg, #3b82f6, #0ea5e9)"
+        />
+        <div className={softui.grid4}>
+          {quickSteps.map((step, idx) => (
+            <StepCard key={idx} step={step.step} title={step.title} description={step.description} code={step.code} delay={idx * 0.12} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function TimelineSection() {
+  return (
+    <section className="home-page__section">
+      <div className="container">
+        <SectionHeader
+          title="Release Timeline"
+          subtitle="How Telegram Git Notifier evolved from its first release to today."
+          accent="linear-gradient(135deg, #3b82f6, #0ea5e9)"
+        />
+        <div className={softui.timelineWrap}>
+          <Timeline items={timelineItems} />
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function FaqSection() {
+  return (
+    <section className="home-page__section">
+      <div className="container">
+        <SectionHeader title="Frequently Asked Questions" subtitle="Answers to the questions most often asked about Telegram Git Notifier." accent="linear-gradient(135deg, #3b82f6, #0ea5e9)" />
+        <FaqAccordion items={faqs} />
+      </div>
+    </section>
+  );
+}
+
 export default function TelegramGitNotifierHome(): JSX.Element {
   return (
     <Layout title="Home Page" description="Telegram Git Notifier Documentation">
       <HomepageHeader/>
       <main>
+        <StatsBar />
         <section className="home-page__features">
           <div className="container">
-            <hr className="section-divider" />
-            <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-              <h2 className="section-title-fancy" style={{
-                background: 'linear-gradient(135deg, #3b82f6, #0ea5e9)',
-                WebkitBackgroundClip: 'text',
-                backgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
-              }}>
-                ⚡ Key Features
-              </h2>
-              <p className="section-subtitle-fancy">
-                Stay connected with your repositories through powerful Telegram notifications.
-              </p>
-            </div>
-            <div className="row home-page__container">
-              <Feature/>
-            </div>
+            <SectionHeader
+              title="⚡ Key Features"
+              subtitle="Stay connected with your repositories through powerful Telegram notifications."
+              accent="linear-gradient(135deg, #3b82f6, #0ea5e9)"
+            />
+            <Feature />
+          </div>
+        </section>
+        <QuickStart />
+        <TimelineSection />
+        <FaqSection />
+        <section className="home-page__section">
+          <div className="container">
+            <CtaBanner
+              title="Never miss a git event again"
+              subtitle="Wire your GitHub or GitLab activity straight into Telegram in minutes."
+              accent="#3b82f6"
+              primary={{ label: "🚀 Get Started", href: "/telegram-git-notifier/introduction" }}
+              secondary={{ label: "⭐ GitHub Repository", href: "https://github.com/cslant/telegram-git-notifier", external: true }}
+            />
           </div>
         </section>
       </main>

@@ -1,10 +1,11 @@
-import React, { useEffect, useRef, useState } from "react";
-import "../../assets/styles/feature/style.scss";
+import React, { JSX, ReactNode } from "react";
+import SoftCard from '@site/src/components/softui/SoftCard';
+import softui from '@site/src/components/softui/softui.module.css';
 
 type FeatureItem = {
   title: string;
   emoji: string;
-  description: React.ReactNode;
+  description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
@@ -13,84 +14,73 @@ const FeatureList: FeatureItem[] = [
     emoji: "⚡",
     description: (
       <>
-        Effortless Real-Time Updates: Stay informed about your project's activity
-        without the need to constantly monitor your repository's events.
+        Stay informed about your project's activity without the need to constantly
+        monitor your repository's events.
       </>
     ),
   },
   {
-    title: "Advanced Filtering for Notifications",
+    title: "Advanced Event Filtering",
     emoji: "🔍",
     description: (
       <>
-        Tailor your notifications to only receive alerts that matter most to you
-        and your team. This feature ensures that you maintain focus on
-        high-priority updates without being overwhelmed by less relevant activity.
+        Reach 39 supported event types across GitHub (28) and GitLab (11) — tailor
+        notifications so only what matters reaches you.
       </>
     ),
   },
   {
-    title: "Customizable Notification Channels",
-    emoji: "🔔",
+    title: "Channels & Topics",
+    emoji: "🗨️",
     description: (
       <>
-        Customize how and what you get notified about. This package allows you to
-        set up multiple notification channels for different events or environments.
+        Send notifications to channels, supergroup topics and multiple targets at
+        once — perfect for teams that organize by thread.
+      </>
+    ),
+  },
+  {
+    title: "Custom Commands & Buttons",
+    emoji: "🔘",
+    description: (
+      <>
+        Support for Telegram bot commands and inline buttons, so your bot can do
+        more than just notify.
+      </>
+    ),
+  },
+  {
+    title: "PHP 8.4+ & Laravel-ready",
+    emoji: "🐘",
+    description: (
+      <>
+        Works with Laravel or any plain PHP application — platform enum and typed
+        DTOs keep the API safe and easy to consume.
+      </>
+    ),
+  },
+  {
+    title: "Resilient Delivery",
+    emoji: "🛡️",
+    description: (
+      <>
+        Exponential backoff and retry logic handle Telegram API rate limits
+        (HTTP 429) automatically, with optional PSR-3 logging.
       </>
     ),
   },
 ];
 
-function FeatureLayout({
-  title,
-  emoji,
-  description,
-  index,
-}: FeatureItem & { index: number }) {
-  const ref = useRef<HTMLDivElement>(null);
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.unobserve(el);
-        }
-      },
-      { threshold: 0.15 }
-    );
-    observer.observe(el);
-    return () => observer.unobserve(el);
-  }, []);
-
+export default function Feature(): JSX.Element {
   return (
-    <div
-      ref={ref}
-      className="col col--3 feature__container"
-      style={{
-        opacity: isVisible ? 1 : 0,
-        transform: isVisible ? "translateY(0)" : "translateY(24px)",
-        transition: `opacity 0.5s ease ${index * 0.15}s, transform 0.5s ease ${index * 0.15}s`,
-      }}
-    >
-      <div className="text--center">
-        <div style={{ fontSize: '2.5rem', marginBottom: '12px' }}>{emoji}</div>
-        <h3>{title}</h3>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
-}
-
-export default function Feature() {
-  return (
-    <>
-      {FeatureList.map((props, idx) => (
-        <FeatureLayout key={idx} index={idx} {...props} />
+    <div className={softui.grid3}>
+      {FeatureList.map((feature, idx) => (
+        <SoftCard key={idx} delay={idx * 0.1}>
+          <div style={{ fontSize: '2.2rem', marginBottom: '0.6rem' }}>{feature.emoji}</div>
+          <h3 style={{ fontWeight: 700, fontSize: '1.1rem', marginBottom: '0.4rem' }}>{feature.title}</h3>
+          <p className="m-0">{feature.description}</p>
+        </SoftCard>
       ))}
-    </>
+    </div>
   );
 }
